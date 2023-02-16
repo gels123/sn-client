@@ -4,3 +4,6 @@
 /ProjectSettings
 /Temp
 /UserSettings
+/.vs
+/.vsconfig
+/obj
