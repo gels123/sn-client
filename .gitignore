@@ -1,11 +1,7 @@
 /Library
 /Logs
 /Packages
-/ProjectSettings
 /Temp
-/UserSettings
 /.vs
 /.vsconfig
 /obj
-/*.sln
-/*.csproj
