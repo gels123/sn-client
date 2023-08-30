@@ -45,32 +45,32 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\XLua\Src\Editor\TemplateRef.cs" />
-     <Compile Include="Assets\XLua\Editor\ExampleConfig.cs" />
-     <Compile Include="Assets\XLua\Examples\13_BuildFromCLI\Editor\BuildFromCLI.cs" />
-     <Compile Include="Assets\XLua\Src\Editor\Generator.cs" />
-     <Compile Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Generator.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Editor\ExampleConfig.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Hotfix.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI\Editor\BuildFromCLI.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Editor\LoopListViewEditor2.cs" />
-     <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\Editor\TemplateRef.cs" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Editor" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
-     <Folder Include="Assets\XLua\Examples\13_BuildFromCLI\Editor" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaRegisterGCM.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
-     <Folder Include="Assets\XLua\Editor" />
-     <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
-     <None Include="Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
-     <Folder Include="Assets\XLua\Src\Editor\Template" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
-     <Folder Include="Assets\XLua\Src\Editor" />
-     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
-     <Folder Include="Assets\XLua\Src\Editor\LinkXmlGen" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
+     <Folder Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI\Editor" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaRegisterGCM.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
+     <Folder Include="Assets\ThirdParty\XLua\Editor" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+     <Folder Include="Assets\ThirdParty\XLua\Src\Editor\Template" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+     <Folder Include="Assets\ThirdParty\XLua\Src\Editor" />
+     <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
+     <Folder Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -332,17 +332,119 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="Luban">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.dll</HintPath>
+     </Reference>
+     <Reference Include="Excel2TextDiff">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Excel2TextDiff\Excel2TextDiff.dll</HintPath>
+     </Reference>
+     <Reference Include="Ude.NetStandard">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Ude.NetStandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Gdscript">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Gdscript.dll</HintPath>
+     </Reference>
+     <Reference Include="Google.Protobuf">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Google.Protobuf.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Golang">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Golang.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="ExcelDataReader">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\ExcelDataReader.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Java">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Java.dll</HintPath>
+     </Reference>
+     <Reference Include="MessagePack">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\MessagePack.dll</HintPath>
+     </Reference>
+     <Reference Include="Neo.Lua.resources">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\de\Neo.Lua.resources.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Typescript">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Typescript.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
+     <Reference Include="MessagePack.Annotations">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\MessagePack.Annotations.dll</HintPath>
+     </Reference>
+     <Reference Include="Scriban">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Scriban.dll</HintPath>
+     </Reference>
      <Reference Include="log4netPlastic">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
+     <Reference Include="Luban.Bson">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Bson.dll</HintPath>
+     </Reference>
+     <Reference Include="NLog">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\NLog.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.DataLoader.Builtin">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataLoader.Builtin.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Core">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json.Bson">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Newtonsoft.Json.Bson.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.MsgPack">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.MsgPack.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.DataValidator.Builtin">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataValidator.Builtin.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Protobuf">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Protobuf.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.CSharp">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.CSharp.dll</HintPath>
+     </Reference>
+     <Reference Include="CommandLine">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\CommandLine.dll</HintPath>
+     </Reference>
+     <Reference Include="YamlDotNet.NetCore">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\YamlDotNet.NetCore.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.NET.StringTools">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Microsoft.NET.StringTools.dll</HintPath>
+     </Reference>
+     <Reference Include="Neo.Lua">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Neo.Lua.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Lua">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Lua.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Cpp">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Cpp.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.L10N">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.L10N.dll</HintPath>
+     </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Schema.Builtin">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Schema.Builtin.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.FlatBuffers">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.FlatBuffers.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.Python">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Python.dll</HintPath>
+     </Reference>
+     <Reference Include="Luban.DataTarget.Builtin">
+     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataTarget.Builtin.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
