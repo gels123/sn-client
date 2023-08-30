@@ -195,6 +195,7 @@
      <Compile Include="Assets\Scripts\Configs\Gen\tag.TestTag.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.BlackboardKey.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
+     <Compile Include="Assets\Tests\TestLuban.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.CompositeJsonTable3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TestSize.cs" />
@@ -445,6 +446,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Texture\Pic" />
+     <Folder Include="Assets\Tests" />
      <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable1.json" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
