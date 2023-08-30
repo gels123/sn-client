@@ -5,7 +5,6 @@
     <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
     <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
     <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,6 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -45,502 +45,407 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Task.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Foo.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslator.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.EOperator.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbCompositeJsonTable1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoE2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeCooldown.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaTable.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\l10n.TbL10NDemo.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestMapper.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\BeanBase.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoPrimitiveTypesTable.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.EFinishMode.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.TbBlackboard.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.CompactString.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EClothesHidePartType.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\l10n.TbPatchDemo.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeTimeLimit.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.DebugPrint.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.SimpleParallel.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EClothesHidePartType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\common.TbGlobalConfig.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestMultiColumn.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiUnionIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.RefDynamicBase.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestString.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbMultiIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeTimeLimit.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.IsSet.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EClothesPropertyType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.login.RoleInfo.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.InnerGroup.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ClickEventListener.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestMap.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.IntKeyData.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.TbBehaviorTree.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.AccessFlag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.H2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbMultiRowRecord.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\RawObject.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\vector4.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Task.cs" />
-     <Compile Include="Assets\Luban\LubanLib\ByteBuf.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.ECurrencyType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.EExecutor.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.DistanceLessThan.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.EFlowAbortMode.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDeleteItemDemoScript.cs" />
-     <Compile Include="Assets\Luban\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test2.Rectangle.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Selector.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.BehaviorTree.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDemoGroup_E.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestNull.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\SpinDatePickerDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbCompositeJsonTable3.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\tag.TestTag.cs" />
-     <Compile Include="Assets\Luban\LubanLib\StringUtil.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ItemPosMgr.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Item.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoType1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbCompositeJsonTable2.cs" />
      <Compile Include="Assets\Scripts\TestXlua\TestXlua1.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiIndexList.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Selector.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test2.Rectangle.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EClothersStarQualityType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.EKeyType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Test3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoEnum.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Sequence.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestScriptableObject.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Decorator.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\ExampleGenConfig.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDemoGroup_E.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.FlowNode.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Blackboard.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.MoveToLocation.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.ChooseSkill.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.ENotifyObserverMode.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.FloatKeyData.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Service.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.BehaviorTree.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.DistanceLessThan.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PageViewDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.InnerGroup.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbMultiRowTitle.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UpdateDailyBehaviorProps.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDemoGroup.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem13.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbExcelFromJsonMultiRow.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoGroup.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.EOperator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.StringKeyData.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestScriptableObject.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EUseType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.NotIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDefineFromExcel2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\05_NoGc\NoGc.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectPool.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoD3.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeLoop.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestSet.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.IsNotSet.cs" />
-     <Compile Include="Assets\Luban\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeBlackboard.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.EFinishMode.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbFullTypes.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.CompositeJsonTable1.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.StringKeyData.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestMultiColumn.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowType3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestRow.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\HorizontalGalleryDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.IsAtLocation.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.login.RoleInfo.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.IntKeyData.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.CompositeJsonTable2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowType1.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\MenuSceneScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UpdateDailyBehaviorProps.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.IsAtLocation.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Equipment.cs" />
      <Compile Include="Assets\Scripts\CarLogic.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestMap.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\AudioType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.MoveToLocation.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.Item.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestString.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Sequence.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DateTimeRange.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.ChooseTarget.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeLoop.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DetectEncoding.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoD5.cs" />
      <Compile Include="Assets\Scripts\TestXlua\MyLuaBehaviour.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.KeyData.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeBlackboard.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\StringUtil.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.TbItem.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.BinaryOperator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\AudioType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestString.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem5.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDemoGroup_S.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DeleteItemDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Shape.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeForceSuccess.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestMapper.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ETestUeType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestSize.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.PatchDemo.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListViewItem2.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResponsiveGridViewDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\common.EBoolOperator.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Decorator.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\DelegateBridge.cs" />
      <Compile Include="Assets\Scripts\Clock\Clock.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestSize.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiRowType1.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestSet.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\vec3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Blackboard.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewWithStickyHeadDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\vector3.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.H1.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDetectCsvEncoding.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiRowTitle.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.RefDynamicBase.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.CompactString.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestBeRef.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\common.GlobalConfig.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Decorator.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem10.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.ComposeNode.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestRef.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestBeRef.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestSize.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeWait.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestRow.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoEnum.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.CompositeJsonTable3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.EKeyType.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\StringUtil.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.RefBean.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiUnionIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.KeyQueryOperator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.DebugPrint.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoD3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChangeItemHeightDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestNull.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestScriptableObject.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResManager.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowTitle.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\GenericDelegateBridge.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoPrimitiveTypesTable.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Circle.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestNull.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem8.cs" />
      <Compile Include="Assets\Scripts\MainCam.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EMinorType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Decorator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestMapper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestExcelBean1.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.ChooseTarget.cs" />
      <Compile Include="Assets\Scripts\CamLogic.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDefineFromExcel2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbMultiRowRecord.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EClothersTag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\vec2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDetectCsvEncoding.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Circle.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbExcelFromJson.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoType2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.IsNotSet.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Node.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.TbBlackboard.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestRef.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbExcelFromJson.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\common.GlobalConfig.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DateTimeRange.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.EFlowAbortMode.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EUseType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestNull.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowRecord.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestBeRef.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\tag.TestTag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.BlackboardKey.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.CompositeJsonTable3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.IsSet.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestSize.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ExcelFromJson.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslatorPool.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.BlackboardKey.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoType1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeWait.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbExcelFromJsonMultiRow.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
-     <Compile Include="Assets\Luban\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoSingletonType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.ECurrencyType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestIndex.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDataSourceMgr.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\vector2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbNotIndexList.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoDynamic.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.FloatKeyData.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.BlackboardKeyData.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\BeanBase.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoD5.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToRefreshDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EClothesPropertyType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestGlobal.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.TbBehaviorTree.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestBeRef.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbSingleton.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoE1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbItem2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoGroup.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Shape.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.BlackboardKeyData.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbMultiRowTitle.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.ENotifyObserverMode.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDemoGroup_S.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestMap.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EClothersTag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Equipment.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbNotIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.KeepFaceTarget.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Test3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbCompositeJsonTable3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\11_RawObject\RawObjectTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.GetOwnerPlayer.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\ByteBuf.cs" />
-     <Compile Include="Assets\Luban\LubanLib\SimpleJSON\SimpleJSON.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON\SimpleJSON.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ETestEmptyEnum.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.KeyData.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\MethodWarpsCache.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbMultiUnionIndexList.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.ChooseSkill.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DetectEncoding.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EMajorType.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\LeftToRightDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.GetOwnerPlayer.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestSet.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestMultiColumn.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.ComposeNode.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\GenAttributes.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\LeftToRightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgListViewDemoScript.cs" />
-     <Compile Include="Assets\Luban\LubanLib\BeanBase.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeCooldown.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ETestEmptyEnum2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\l10n.PatchDemo.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestGlobal.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeWaitBlackboardTime.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestBeRef2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDemoGroup_C.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiRowType2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ItemBase.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.CompositeJsonTable1.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectCasters.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\l10n.L10NDemo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem11.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ETestQuality.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestRef.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbFullTypes.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.NotIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.H1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDemoGroup_C.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\tag.TbTestTag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ETestEmptyEnum2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestBeRef2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.MoveToTarget.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DragChangSizeScript.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowType2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestRef.cs" />
      <Compile Include="Assets\Scripts\MoveLogic.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoType2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoD2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\Tables.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Main.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.CompositeJsonTable2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.L10NDemo.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestIndex.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbSingleton.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\common.TbGlobalConfig.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoE1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.MoveToRandomLocation.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbPatchDemo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ClickAndLoadMoreDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.EExecutor.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbCompositeJsonTable1.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EMajorType.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaDLL.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListView2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaBase.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeForceSuccess.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\vec4.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ItemBase.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\StatefullTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.MoveToTarget.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoDynamic.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ExcelFromJsonMultiRow.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToLoadMoreDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeSetDefaultFocus.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestIndex.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.KeepFaceTarget.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ExcelFromJson.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoSingletonType.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDemoGroup.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiRowType3.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\Tables.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EClothersStarQualityType.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDemoPrimitive.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.FlowNode.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EItemQuality.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoD2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbL10NDemo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewItemCountMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.Service.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestIndex.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EMinorType.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\01_Helloworld\Helloworld.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\DefineFromExcel2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDemoPrimitive.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\DefineFromExcel2.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem3.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoFlag.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.RefBean.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbItem2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestScriptableObject.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.ExecuteTimeStatistic.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestMap.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ETestEmptyEnum.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem9.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbMultiIndexList.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.H2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ExcelFromJsonMultiRow.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.EItemQuality.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.Foo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem14.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.Item.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.BinaryOperator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.UeSetDefaultFocus.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem0.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.ETestUeType.cs" />
-     <Compile Include="Assets\Tests\TestLuBan\TestLuban.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.ExecuteTimeStatistic.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbCompositeJsonTable2.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.UeWaitBlackboardTime.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.DemoE2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbDataFromMisc.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbMultiUnionIndexList.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\common.EBoolOperator.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.SimpleParallel.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\VerticalGalleryDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestString.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestMapper.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item.TbItem.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.ETestQuality.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestSet.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RotateScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem4.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\SignatureLoader.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.DemoFlag.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\ai.Node.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestGlobal.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem12.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TestMultiColumn.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\test.TestExcelBean1.cs" />
      <Compile Include="Assets\Scripts\Graph\GraphCtrl.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.MoveToRandomLocation.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.AccessFlag.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbTestGlobal.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\InternalGlobals.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.MultiRowRecord.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem1.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\tag.TbTestTag.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai.KeyQueryOperator.cs" />
-     <Compile Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test.TbDataFromMisc.cs" />
      <Compile Include="Assets\Scripts\fixtest.cs" />
      <Folder Include="Assets" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Protobuf.deps.json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\java-bin" />
-     <None Include="Assets\Luban\Configs\Defines\builtin.xml" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.DataTarget.Builtin.deps.json" />
      <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
      <None Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\j_tag_any.json" />
      <Folder Include="Assets\ThirdParty\SuperScrollView" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdemoprimitive.json" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources" />
      <Folder Include="Assets\Materials" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Schema.Builtin.deps.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\item" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\xlua" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\limit" />
-     <Folder Include="Assets\Luban\LubanLib\SimpleJSON" />
+     <Folder Include="Assets\Scripts\Configs\LubanLib\SimpleJSON" />
      <Folder Include="Assets\Prefabs\3D" />
-     <Folder Include="Assets\Luban\Tools\Excel2TextDiff\ref" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\otherfiles" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\pb" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\role" />
-     <Folder Include="Assets\Luban\Tools\Luban\de" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Python.deps.json" />
-     <Folder Include="Assets\Luban" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\python-json" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Core.deps.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Java.deps.json" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Golang.deps.json" />
-     <None Include="Assets\Luban\Configs\Defines\l10n.xml" />
-     <None Include="Assets\Luban\Configs\Datas\test\composite_tables2.json" />
-     <None Include="Assets\Luban\Configs\Datas\l10n\texts.json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\gdscript-json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestmap.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestset.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbmultirowtitle.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbmultiindexlist.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestindex.json" />
+     <Folder Include="Assets\StreamingAssets\Json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdemogroup_e.json" />
      <None Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestberef.json" />
      <None Include="Assets\ThirdParty\XLua\Resources\xlua\util.lua.txt" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts" />
-     <None Include="Assets\Luban\Configs\Datas\test\misc_datas\2.json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\cs-bin" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\test2" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\x_not_tag.xml" />
      <Folder Include="Assets\Scripts" />
-     <None Include="Assets\Luban\Csharp_Unity_json\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Cpp.deps.json" />
-     <None Include="Assets\Luban\Configs\Datas\test\misc_datas\1.xml" />
+     <None Include="Assets\StreamingAssets\Json\test_tbteststring.json" />
      <Folder Include="Assets\Prefabs" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Typescript.deps.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\blueprint" />
-     <None Include="Assets\Luban\Configs\Defines\item.xml" />
-     <Folder Include="Assets\Luban\LubanLib" />
+     <None Include="Assets\StreamingAssets\Json\common_tbglobalconfig.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable2.json" />
+     <Folder Include="Assets\Scripts\Configs" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript" />
-     <Folder Include="Assets\Luban\Configs\Datas\test\misc_datas" />
+     <None Include="Assets\StreamingAssets\Json\l10n_tbl10ndemo.json" />
+     <None Include="Assets\StreamingAssets\Json\ai_tbblackboard.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\03_UIEvent" />
+     <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable3.json" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LuaCallCSharp" />
-     <None Include="Assets\Luban\Configs\Datas\test\excel_jsons\2.json" />
-     <None Include="Assets\Luban\LubanLib\SimpleJSON\Changelog.txt" />
+     <None Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\Changelog.txt" />
      <Folder Include="Assets\Scripts\TestXlua" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\lua-lua" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\cs-simple-json" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua" />
-     <None Include="Assets\Luban\Configs\Defines\tag.xml" />
-     <None Include="Assets\Luban\Configs\Datas\test\test_null_datas\30.xml" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\cost" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\j_not_tag.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\UserSettings" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\GoodsIcon" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\mail" />
+     <None Include="Assets\StreamingAssets\Json\test_tbnotindexlist.json" />
+     <None Include="Assets\StreamingAssets\Json\item_tbitem.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\perf" />
-     <Folder Include="Assets\Luban\Configs\Datas\test" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common\go" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.deps.json" />
-     <None Include="Assets\Luban\Configs\Defines\test.xml" />
-     <Folder Include="Assets\Luban\Configs\Datas\error" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestsize.json" />
+     <None Include="Assets\StreamingAssets\Json\l10n_tbpatchdemo.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbexcelfromjsonmultirow.json" />
      <Folder Include="Assets\Resource" />
+     <Folder Include="Assets\Scripts\Configs\LubanLib" />
      <Folder Include="Assets\ThirdParty\XLua\Doc" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Lua.deps.json" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Scripts" />
      <Folder Include="Assets\Textures" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scenes" />
      <Folder Include="Assets\Prefabs\2D" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Gdscript.deps.json" />
-     <None Include="Assets\Luban\Configs\Datas\test\test_null_datas\10.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdefinefromexcel2.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\08_Hotfix" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\go-json" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.DataLoader.Builtin.deps.json" />
+     <Folder Include="Assets\Scripts\Configs\Gen" />
      <None Include="Assets\ThirdParty\XLua\Resources\perf\profiler.lua.txt" />
-     <None Include="Assets\Luban\Configs\Datas\test\excel_jsons\3.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua" />
-     <None Include="Assets\Luban\Configs\Defines\common.xml" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Schema.Builtin.runtimeconfig.json" />
-     <None Include="Assets\Luban\Configs\Datas\test\test_null_datas\31.xml" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\go-bin" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\flatbuffers" />
-     <None Include="Assets\Luban\Configs\Datas\test\misc_datas\2.xml" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\01_Helloworld" />
-     <None Include="Assets\Luban\Configs\Datas\test\excel_multi_row_jsons\2.json" />
      <Folder Include="Assets\Scripts\Graph" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\typescript-json" />
-     <Folder Include="Assets\Luban\Configs\Datas\role" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\ai" />
      <None Include="Assets\Materials\PointSerface.shader" />
-     <None Include="Assets\Luban\Tools\Excel2TextDiff\Excel2TextDiff.runtimeconfig.dev.json" />
-     <Folder Include="Assets\Luban\Configs\Datas\common" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\j_tag_test.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbsingleton.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestberef2.json" />
      <Folder Include="Assets\Materials\clock" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\l10n" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestscriptableobject.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\x_tag_any.xml" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\condition" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\bonus" />
-     <None Include="Assets\Luban\Configs\Datas\test\test_null_datas\11.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Logs" />
-     <None Include="Assets\Luban\Csharp_Unity_json\Logs\ApiUpdaterCheck.txt" />
-     <Folder Include="Assets\Luban\Configs\Defines" />
-     <Folder Include="Assets\Luban\Tools" />
+     <None Include="Assets\StreamingAssets\Json\test_tbexcelfromjson.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdetectcsvencoding.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestmulticolumn.json" />
+     <None Include="Assets\StreamingAssets\Json\tag_tbtesttag.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbitem2.json" />
      <Folder Include="Assets\ThirdParty" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json" />
      <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine" />
-     <None Include="Assets\Luban\Configs\Datas\test\misc_datas\1.json" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.CSharp.deps.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestglobal.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestref.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources" />
+     <None Include="Assets\StreamingAssets\Json\test_tbmultiunionindexlist.json" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader" />
-     <Folder Include="Assets\Luban\Configs\Datas\test\excel_multi_row_jsons" />
-     <Folder Include="Assets\Luban\Tools\Excel2TextDiff" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.Bson.deps.json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\java-json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\cs-editor-json" />
      <None Include="Assets\ThirdParty\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
-     <None Include="Assets\Luban\Tools\Excel2TextDiff\Excel2TextDiff.runtimeconfig.json" />
-     <None Include="Assets\Luban\Configs\Defines\__root__.xml" />
-     <Folder Include="Assets\Tests\TestLuBan" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\error" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestnull.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.L10N.deps.json" />
-     <Folder Include="Assets\Luban\Configs\Datas" />
-     <None Include="Assets\Luban\Configs\Datas\test\composite_tables.json" />
-     <None Include="Assets\Luban\Configs\Datas\test\excel_jsons\1.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdemogroup_c.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdemogroup_s.json" />
      <None Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
      <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Texture" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common\java" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest" />
      <Folder Include="Assets\ThirdParty\XLua\Src" />
-     <Folder Include="Assets\Luban\Tools\Luban" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\cpp-bin" />
      <None Include="Assets\Scripts\TestXlua\TestXlua2.lua.txt" />
      <Folder Include="Assets\StreamingAssets" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\tag" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.DataValidator.Builtin.deps.json" />
-     <None Include="Assets\Luban\Configs\Defines\ai.xml" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen\common" />
+     <None Include="Assets\StreamingAssets\Json\ai_tbbehaviortree.json" />
      <None Include="Assets\Scripts\TestXlua\TestXlua3.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua" />
-     <None Include="Assets\Luban\Tools\Excel2TextDiff\Excel2TextDiff.deps.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\cs-dotnet-json" />
-     <Folder Include="Assets\Luban\Configs\Datas\test\unity_scriptable_objects" />
-     <None Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib\SimpleJSON\Changelog.txt" />
-     <Folder Include="Assets\Luban\Configs\Datas\mail" />
-     <Folder Include="Assets\Luban\Configs\Datas\test\test_null_datas" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common\ts" />
+     <None Include="Assets\StreamingAssets\Json\test_tbmultirowrecord.json" />
      <None Include="Assets\ThirdParty\SuperScrollView\Scripts\Version 2.2.txt" />
-     <None Include="Assets\Luban\Configs\Datas\tag_datas\x_tag_test.xml" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.MsgPack.deps.json" />
      <Folder Include="Assets\Scripts\Clock" />
-     <Folder Include="Assets\Luban\Configs\Datas\clothes" />
-     <None Include="Assets\Luban\Configs\Datas\test\excel_multi_row_jsons\1.json" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common\cs" />
+     <None Include="Assets\StreamingAssets\Json\test_tbfulltypes.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\05_NoGc" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\Resources" />
-     <Folder Include="Assets\Luban\Configs\Datas\l10n" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\11_RawObject" />
      <None Include="Assets\ThirdParty\XLua\Resources\tdr\tdr.lua.txt" />
-     <None Include="Assets\Luban\Configs\Datas\test\test_null_datas\12.json" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Scenes" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.runtimeconfig.json" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdatafrommisc.json" />
      <None Include="Assets\ThirdParty\XLua\CHANGELOG.txt" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\ProjectSettings" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\LubanLib" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\common\cpp" />
      <Folder Include="Assets\AudioClip" />
-     <Folder Include="Assets\Luban\Configs\Datas\test\excel_jsons" />
      <Folder Include="Assets\ThirdParty\XLua\Doc\Materials" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile" />
-     <Folder Include="Assets\Luban\Csharp_Unity_json\Assets\Gen" />
      <Folder Include="Assets\ThirdParty\XLua\Examples" />
+     <None Include="Assets\StreamingAssets\Json\test_tbtestmapper.json" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo" />
      <Folder Include="Assets\ThirdParty\XLua\Src\TemplateEngine" />
      <None Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
-     <None Include="Assets\Luban\Tools\Luban\Luban.FlatBuffers.deps.json" />
-     <Folder Include="Assets\Luban\Configs\Datas\item" />
+     <None Include="Assets\StreamingAssets\Json\test_tbdemogroup.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\tdr" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting" />
-     <Folder Include="Assets\Luban\Tools\Luban\Templates\lua-bin" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Texture\Pic" />
-     <Folder Include="Assets\Luban\Configs\Datas\tag_datas" />
-     <Folder Include="Assets\Tests" />
+     <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable1.json" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -789,108 +694,6 @@
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.dll</HintPath>
-     </Reference>
-     <Reference Include="Excel2TextDiff">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Excel2TextDiff\Excel2TextDiff.dll</HintPath>
-     </Reference>
-     <Reference Include="Ude.NetStandard">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Ude.NetStandard.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Gdscript">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Gdscript.dll</HintPath>
-     </Reference>
-     <Reference Include="Google.Protobuf">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Google.Protobuf.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Golang">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Golang.dll</HintPath>
-     </Reference>
-     <Reference Include="ExcelDataReader">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\ExcelDataReader.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Java">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Java.dll</HintPath>
-     </Reference>
-     <Reference Include="MessagePack">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\MessagePack.dll</HintPath>
-     </Reference>
-     <Reference Include="Neo.Lua.resources">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\de\Neo.Lua.resources.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Typescript">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Typescript.dll</HintPath>
-     </Reference>
-     <Reference Include="MessagePack.Annotations">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\MessagePack.Annotations.dll</HintPath>
-     </Reference>
-     <Reference Include="Scriban">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Scriban.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Bson">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Bson.dll</HintPath>
-     </Reference>
-     <Reference Include="NLog">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\NLog.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.DataLoader.Builtin">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataLoader.Builtin.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Core">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json.Bson">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Newtonsoft.Json.Bson.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.MsgPack">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.MsgPack.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.DataValidator.Builtin">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataValidator.Builtin.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Protobuf">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Protobuf.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.CSharp">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.CSharp.dll</HintPath>
-     </Reference>
-     <Reference Include="CommandLine">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\CommandLine.dll</HintPath>
-     </Reference>
-     <Reference Include="YamlDotNet.NetCore">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\YamlDotNet.NetCore.dll</HintPath>
-     </Reference>
-     <Reference Include="Microsoft.NET.StringTools">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Microsoft.NET.StringTools.dll</HintPath>
-     </Reference>
-     <Reference Include="Neo.Lua">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Neo.Lua.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Lua">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Lua.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Cpp">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Cpp.dll</HintPath>
-     </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Newtonsoft.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.L10N">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.L10N.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Schema.Builtin">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Schema.Builtin.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.FlatBuffers">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.FlatBuffers.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.Python">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.Python.dll</HintPath>
-     </Reference>
-     <Reference Include="Luban.DataTarget.Builtin">
-     <HintPath>D:\work\sn-client\Assets\Luban\Tools\Luban\Luban.DataTarget.Builtin.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1311,7 +1114,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\Luban\Configs\gen.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

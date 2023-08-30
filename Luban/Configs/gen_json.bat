@@ -9,8 +9,8 @@ dotnet %GEN_CLIENT% ^
     -d json  ^
     --schemaPath %CONF_ROOT%\Defines\__root__.xml ^
     -x inputDataDir=%CONF_ROOT%\Datas ^
-    -x outputCodeDir=%WORKSPACE%\Scripts\Configs ^
-    -x outputDataDir=%WORKSPACE%\StreamingAssets\Json ^
+    -x outputCodeDir=%WORKSPACE%\Assets\Scripts\Configs\Gen ^
+    -x outputDataDir=%WORKSPACE%\Assets\StreamingAssets\Json ^
     -x pathValidator.rootDir=D:\workspace2\luban_examples\Projects\Csharp_Unity_bin ^
     -x l10n.textProviderFile=*@%WORKSPACE%\Luban\Configs\Datas\l10n\texts.json
 
