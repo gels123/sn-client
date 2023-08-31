@@ -1,0 +1,12 @@
+[
+  {
+    "key": "/notify/welcome",
+    "zh": "欢迎加入!",
+    "en": "Welcome!"
+  },
+  {
+    "key": "/notify/missyou",
+    "zh": "我们想念您，赶紧回归吧!",
+    "en": "We miss you so come back soon!"
+  }
+]

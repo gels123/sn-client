@@ -21,8 +21,7 @@ public partial class Tables
     /// 道具表
     /// </summary>
     public item.TbItem TbItem {get; }
-    public l10n.TbL10NDemo TbL10NDemo {get; }
-    public l10n.TbPatchDemo TbPatchDemo {get; }
+    public l10n.TbL10NTest TbL10NTest {get; }
     public tag.TbTestTag TbTestTag {get; }
     public test.TbFullTypes TbFullTypes {get; }
     public test.TbSingleton TbSingleton {get; }
@@ -58,6 +57,7 @@ public partial class Tables
     public test.TbTestScriptableObject TbTestScriptableObject {get; }
     public test.TbTestMapper TbTestMapper {get; }
     public test.TbDefineFromExcel2 TbDefineFromExcel2 {get; }
+    public TbTestFirst TbTestFirst {get; }
 
     public Tables(System.Func<string, JSONNode> loader)
     {
@@ -65,8 +65,7 @@ public partial class Tables
         TbBehaviorTree = new ai.TbBehaviorTree(loader("ai_tbbehaviortree"));
         TbGlobalConfig = new common.TbGlobalConfig(loader("common_tbglobalconfig"));
         TbItem = new item.TbItem(loader("item_tbitem"));
-        TbL10NDemo = new l10n.TbL10NDemo(loader("l10n_tbl10ndemo"));
-        TbPatchDemo = new l10n.TbPatchDemo(loader("l10n_tbpatchdemo"));
+        TbL10NTest = new l10n.TbL10NTest(loader("l10n_tbl10ntest"));
         TbTestTag = new tag.TbTestTag(loader("tag_tbtesttag"));
         TbFullTypes = new test.TbFullTypes(loader("test_tbfulltypes"));
         TbSingleton = new test.TbSingleton(loader("test_tbsingleton"));
@@ -102,6 +101,7 @@ public partial class Tables
         TbTestScriptableObject = new test.TbTestScriptableObject(loader("test_tbtestscriptableobject"));
         TbTestMapper = new test.TbTestMapper(loader("test_tbtestmapper"));
         TbDefineFromExcel2 = new test.TbDefineFromExcel2(loader("test_tbdefinefromexcel2"));
+        TbTestFirst = new TbTestFirst(loader("tbtestfirst"));
         ResolveRef();
     }
     
@@ -111,8 +111,7 @@ public partial class Tables
         TbBehaviorTree.ResolveRef(this);
         TbGlobalConfig.ResolveRef(this);
         TbItem.ResolveRef(this);
-        TbL10NDemo.ResolveRef(this);
-        TbPatchDemo.ResolveRef(this);
+        TbL10NTest.ResolveRef(this);
         TbTestTag.ResolveRef(this);
         TbFullTypes.ResolveRef(this);
         TbSingleton.ResolveRef(this);
@@ -148,6 +147,7 @@ public partial class Tables
         TbTestScriptableObject.ResolveRef(this);
         TbTestMapper.ResolveRef(this);
         TbDefineFromExcel2.ResolveRef(this);
+        TbTestFirst.ResolveRef(this);
     }
 }
 

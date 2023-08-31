@@ -74,6 +74,7 @@
      <Compile Include="Assets\Scripts\Configs\Gen\ai.EFlowAbortMode.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDeleteItemDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test2.Rectangle.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\TbTestFirst.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.Selector.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
@@ -131,6 +132,7 @@
      <Compile Include="Assets\Scripts\CarLogic.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.DateTimeRange.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.ChooseTarget.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.L10NTest.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.UeLoop.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.DetectEncoding.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
@@ -145,7 +147,6 @@
      <Compile Include="Assets\Scripts\Configs\Gen\test.ETestUeType.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestSize.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\l10n.PatchDemo.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListViewItem2.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResponsiveGridViewDemoScript.cs" />
@@ -179,6 +180,7 @@
      <Compile Include="Assets\Scripts\MainCam.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TestMapper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbL10NTest.cs" />
      <Compile Include="Assets\Scripts\CamLogic.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\vec2.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TbDetectCsvEncoding.cs" />
@@ -188,6 +190,7 @@
      <Compile Include="Assets\Scripts\Configs\Gen\ai.IsNotSet.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\TestFirst.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.MultiIndexList.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowRecord.cs" />
@@ -256,14 +259,12 @@
      <Compile Include="Assets\Scripts\Configs\Gen\test.MultiRowType2.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TbTestRef.cs" />
      <Compile Include="Assets\Scripts\MoveLogic.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\l10n.L10NDemo.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TestIndex.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.TbSingleton.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\common.TbGlobalConfig.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.DemoE1.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.MoveToRandomLocation.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbPatchDemo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ClickAndLoadMoreDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\ai.EExecutor.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
@@ -286,7 +287,6 @@
      <Compile Include="Assets\Scripts\Configs\Gen\ai.FlowNode.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.EItemQuality.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\test.DemoD2.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbL10NDemo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewItemCountMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
@@ -340,6 +340,7 @@
      <None Include="Assets\StreamingAssets\Json\test_tbtestmap.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbtestset.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbmultirowtitle.json" />
+     <None Include="Assets\StreamingAssets\Json\l10n_tbl10ntest.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbmultiindexlist.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbtestindex.json" />
      <Folder Include="Assets\StreamingAssets\Json" />
@@ -355,7 +356,6 @@
      <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable2.json" />
      <Folder Include="Assets\Scripts\Configs" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript" />
-     <None Include="Assets\StreamingAssets\Json\l10n_tbl10ndemo.json" />
      <None Include="Assets\StreamingAssets\Json\ai_tbblackboard.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\03_UIEvent" />
      <None Include="Assets\StreamingAssets\Json\test_tbcompositejsontable3.json" />
@@ -367,7 +367,6 @@
      <None Include="Assets\StreamingAssets\Json\item_tbitem.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\perf" />
      <None Include="Assets\StreamingAssets\Json\test_tbtestsize.json" />
-     <None Include="Assets\StreamingAssets\Json\l10n_tbpatchdemo.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbexcelfromjsonmultirow.json" />
      <Folder Include="Assets\Resource" />
      <Folder Include="Assets\Scripts\Configs\LubanLib" />
@@ -387,6 +386,7 @@
      <None Include="Assets\Materials\PointSerface.shader" />
      <None Include="Assets\StreamingAssets\Json\test_tbsingleton.json" />
      <None Include="Assets\StreamingAssets\Json\test_tbtestberef2.json" />
+     <None Include="Assets\StreamingAssets\Json\tbtestfirst.json" />
      <Folder Include="Assets\Materials\clock" />
      <None Include="Assets\StreamingAssets\Json\test_tbtestscriptableobject.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader" />

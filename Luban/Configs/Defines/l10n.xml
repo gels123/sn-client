@@ -1,14 +1,7 @@
 <module name="l10n">
-	<bean name="L10NDemo">
+	<bean name="L10NTest">
 		<var name="id" type="int"/>
 		<var name="text" type="text"/>
 	</bean>
-	
-	<table name="TbL10NDemo" value="L10NDemo" input="l10n/Demo.xlsx"/>
-	
-	<bean name="PatchDemo">
-		<var name="id" type="int"/>
-		<var name="value" type="int"/>
-	</bean>
-	<table name="TbPatchDemo" value="PatchDemo" input="l10n/Patch.xlsx"/>
+	<table name="TbL10NTest" value="L10NTest" input="l10n/texts_test.xlsx"/>
 </module>
