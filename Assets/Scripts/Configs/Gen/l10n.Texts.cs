@@ -11,7 +11,7 @@ using Luban;
 using SimpleJSON;
 
 
-namespace cfg
+namespace cfg.l10n
 {
 public sealed partial class Texts : Luban.BeanBase
 {
@@ -24,7 +24,7 @@ public sealed partial class Texts : Luban.BeanBase
 
     public static Texts DeserializeTexts(JSONNode _buf)
     {
-        return new Texts(_buf);
+        return new l10n.Texts(_buf);
     }
 
     /// <summary>
@@ -40,7 +40,7 @@ public sealed partial class Texts : Luban.BeanBase
     /// </summary>
     public readonly string En;
    
-    public const int __ID__ = 80703686;
+    public const int __ID__ = -125225637;
     public override int GetTypeId() => __ID__;
 
     public  void ResolveRef(Tables tables)

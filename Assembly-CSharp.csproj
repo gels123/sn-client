@@ -48,6 +48,7 @@
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslator.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaTable.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbTexts.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
@@ -115,6 +116,7 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToRefreshDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\FPSDisplay.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\l10n.Texts.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\11_RawObject\RawObjectTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\MethodWarpsCache.cs" />
@@ -147,6 +149,7 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem14.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem0.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\common.EBoolOperator.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\VerticalGalleryDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
@@ -201,6 +204,7 @@
      <None Include="Assets\Materials\PointSerface.shader" />
      <Folder Include="Assets\Materials\clock" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader" />
+     <None Include="Assets\StreamingAssets\Json\l10n_tbtexts.json" />
      <Folder Include="Assets\ThirdParty" />
      <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine" />

@@ -15,29 +15,29 @@ namespace cfg.l10n
 {
 public partial class TbTexts
 {
-    private readonly System.Collections.Generic.Dictionary<string, Texts> _dataMap;
-    private readonly System.Collections.Generic.List<Texts> _dataList;
+    private readonly System.Collections.Generic.Dictionary<string, l10n.Texts> _dataMap;
+    private readonly System.Collections.Generic.List<l10n.Texts> _dataList;
     
     public TbTexts(JSONNode _buf)
     {
-        _dataMap = new System.Collections.Generic.Dictionary<string, Texts>();
-        _dataList = new System.Collections.Generic.List<Texts>();
+        _dataMap = new System.Collections.Generic.Dictionary<string, l10n.Texts>();
+        _dataList = new System.Collections.Generic.List<l10n.Texts>();
         
         foreach(JSONNode _ele in _buf.Children)
         {
-            Texts _v;
-            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = Texts.DeserializeTexts(_ele);  }
+            l10n.Texts _v;
+            { if(!_ele.IsObject) { throw new SerializationException(); }  _v = l10n.Texts.DeserializeTexts(_ele);  }
             _dataList.Add(_v);
             _dataMap.Add(_v.Key, _v);
         }
     }
 
-    public System.Collections.Generic.Dictionary<string, Texts> DataMap => _dataMap;
-    public System.Collections.Generic.List<Texts> DataList => _dataList;
+    public System.Collections.Generic.Dictionary<string, l10n.Texts> DataMap => _dataMap;
+    public System.Collections.Generic.List<l10n.Texts> DataList => _dataList;
 
-    public Texts GetOrDefault(string key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public Texts Get(string key) => _dataMap[key];
-    public Texts this[string key] => _dataMap[key];
+    public l10n.Texts GetOrDefault(string key) => _dataMap.TryGetValue(key, out var v) ? v : null;
+    public l10n.Texts Get(string key) => _dataMap[key];
+    public l10n.Texts this[string key] => _dataMap[key];
 
     public void ResolveRef(Tables tables)
     {
