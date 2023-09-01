@@ -1,0 +1,7 @@
+<module name="l10n">
+	<bean name="L10NDemo">
+		<var name="id" type="int"/>
+		<var name="text" type="text"/>
+	</bean>
+	<table name="TbL10NDemo" value="L10NDemo" input="l10n/Demo.xlsx"/>
+</module>
