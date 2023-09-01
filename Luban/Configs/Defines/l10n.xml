@@ -1,7 +1,0 @@
-<module name="l10n">
-	<bean name="L10NTest">
-		<var name="id" type="int"/>
-		<var name="text" type="text"/>
-	</bean>
-	<table name="TbL10NTest" value="L10NTest" input="l10n/texts_test.xlsx"/>
-</module>

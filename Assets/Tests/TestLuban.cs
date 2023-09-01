@@ -11,7 +11,7 @@ public class TestLuban : MonoBehaviour
     {
         Debug.Log("== TestLuban Start ==" + Application.streamingAssetsPath);
         var tables = new cfg.Tables(LoadByteBuf);
-        Debug.Log("加载"+tables.TbItem[1].ToString());
+        Debug.Log("============sdfadsf=====" + tables.TbItem[10005].ToString());
     }
 
     // Update is called once per frame
