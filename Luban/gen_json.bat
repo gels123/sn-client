@@ -1,4 +1,4 @@
-set WORKSPACE=..\..
+set WORKSPACE=..
 
 set GEN_CLIENT=%WORKSPACE%\Luban\Tools\Luban\Luban.dll
 set CONF_ROOT=%WORKSPACE%\Luban\Configs
