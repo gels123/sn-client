@@ -8,7 +8,6 @@
 	<import name="../Datas/__tables__.xlsx" type="table"/>
 	<import name="../Datas/__enums__.xlsx" type="enum"/>
 	<import name="../Datas/__beans__.xlsx" type="bean"/>
-	
 
 	<target name="server" manager="Tables" group="s" topModule="cfg"/>
 	<target name="client" manager="Tables" group="c" topModule="cfg"/>

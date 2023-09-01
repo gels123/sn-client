@@ -52,9 +52,7 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ClickEventListener.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\test.AccessFlag.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\RawObject.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\item.ItemExchange.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDeleteItemDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
@@ -105,6 +103,7 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
      <Compile Include="Assets\Tests\TestLuban.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
@@ -123,6 +122,7 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\LeftToRightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgListViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.ItemCell.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectCasters.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem11.cs" />
@@ -147,7 +147,6 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem14.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem0.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\Item.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\VerticalGalleryDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />

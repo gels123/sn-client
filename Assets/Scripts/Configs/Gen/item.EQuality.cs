@@ -16,19 +16,23 @@ namespace cfg.item
         /// <summary>
         /// 最差品质
         /// </summary>
-        WHITE = 1,
+        A = 1,
         /// <summary>
         /// 蓝色的
         /// </summary>
-        BLUE = 2,
+        B = 2,
         /// <summary>
         /// 紫色的
         /// </summary>
-        PURPLE = 3,
+        C = 3,
         /// <summary>
         /// 最高品质
         /// </summary>
-        RED = 4,
+        D = 4,
+        /// <summary>
+        /// 最高品质(镶宝石)
+        /// </summary>
+        E = 5,
     }
 
 } 

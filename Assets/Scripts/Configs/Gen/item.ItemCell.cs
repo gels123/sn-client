@@ -13,29 +13,29 @@ using SimpleJSON;
 
 namespace cfg.item
 {
-public sealed partial class ItemExchange : Luban.BeanBase
+public sealed partial class ItemCell : Luban.BeanBase
 {
-    public ItemExchange(JSONNode _buf) 
+    public ItemCell(JSONNode _buf) 
     {
         { if(!_buf["id"].IsNumber) { throw new SerializationException(); }  Id = _buf["id"]; }
-        { if(!_buf["num"].IsNumber) { throw new SerializationException(); }  Num = _buf["num"]; }
+        { if(!_buf["count"].IsNumber) { throw new SerializationException(); }  Count = _buf["count"]; }
     }
 
-    public static ItemExchange DeserializeItemExchange(JSONNode _buf)
+    public static ItemCell DeserializeItemCell(JSONNode _buf)
     {
-        return new item.ItemExchange(_buf);
+        return new item.ItemCell(_buf);
     }
 
     /// <summary>
-    /// 道具id
+    /// 道具ID
     /// </summary>
     public readonly int Id;
     /// <summary>
     /// 道具数量
     /// </summary>
-    public readonly int Num;
+    public readonly int Count;
    
-    public const int __ID__ = 1814660465;
+    public const int __ID__ = 677808;
     public override int GetTypeId() => __ID__;
 
     public  void ResolveRef(Tables tables)
@@ -48,7 +48,7 @@ public sealed partial class ItemExchange : Luban.BeanBase
     {
         return "{ "
         + "id:" + Id + ","
-        + "num:" + Num + ","
+        + "count:" + Count + ","
         + "}";
     }
 }

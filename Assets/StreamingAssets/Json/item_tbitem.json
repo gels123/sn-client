@@ -7,23 +7,23 @@
     "upgrade_to_item_id": 10001,
     "batch_useable": false,
     "quality": 1,
-    "exchange_stream": {
+    "exchange1": {
       "id": 10001,
-      "num": 2
+      "count": 2
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 3
+        "count": 3
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 2
+      "count": 2
     }
   },
   {
@@ -34,23 +34,23 @@
     "upgrade_to_item_id": 10002,
     "batch_useable": false,
     "quality": 1,
-    "exchange_stream": {
+    "exchange1": {
       "id": 10002,
-      "num": 2
+      "count": 2
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 4
+        "count": 4
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 3
+      "count": 3
     }
   },
   {
@@ -60,24 +60,24 @@
     "price": 100,
     "upgrade_to_item_id": 10003,
     "batch_useable": true,
-    "quality": 2,
-    "exchange_stream": {
+    "quality": 1,
+    "exchange1": {
       "id": 10003,
-      "num": 3
+      "count": 3
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 5
+        "count": 5
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 4
+      "count": 4
     }
   },
   {
@@ -88,23 +88,23 @@
     "upgrade_to_item_id": 10004,
     "batch_useable": true,
     "quality": 2,
-    "exchange_stream": {
+    "exchange1": {
       "id": 10004,
-      "num": 3
+      "count": 3
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 6
+        "count": 6
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 5
+      "count": 5
     }
   },
   {
@@ -115,23 +115,23 @@
     "upgrade_to_item_id": 10005,
     "batch_useable": false,
     "quality": 2,
-    "exchange_stream": {
+    "exchange1": {
       "id": 10005,
-      "num": 4
+      "count": 4
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 7
+        "count": 7
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 6
+      "count": 6
     }
   },
   {
@@ -141,24 +141,24 @@
     "price": 100,
     "upgrade_to_item_id": 10006,
     "batch_useable": true,
-    "quality": 3,
-    "exchange_stream": {
+    "quality": 2,
+    "exchange1": {
       "id": 10006,
-      "num": 4
+      "count": 4
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 8
+        "count": 8
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 7
+      "count": 7
     }
   },
   {
@@ -168,24 +168,24 @@
     "price": 100,
     "upgrade_to_item_id": 10007,
     "batch_useable": false,
-    "quality": 3,
-    "exchange_stream": {
+    "quality": 2,
+    "exchange1": {
       "id": 10007,
-      "num": 5
+      "count": 5
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 9
+        "count": 9
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 8
+      "count": 8
     }
   },
   {
@@ -197,23 +197,23 @@
     "expire_time": 1633881599,
     "batch_useable": false,
     "quality": 2,
-    "exchange_stream": {
+    "exchange1": {
       "id": 10008,
-      "num": 5
+      "count": 5
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 10
+        "count": 10
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 9
+      "count": 9
     }
   },
   {
@@ -224,24 +224,24 @@
     "upgrade_to_item_id": 10009,
     "expire_time": 1633967999,
     "batch_useable": false,
-    "quality": 3,
-    "exchange_stream": {
+    "quality": 2,
+    "exchange1": {
       "id": 10009,
-      "num": 6
+      "count": 6
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 11
+        "count": 11
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 10
+      "count": 10
     }
   },
   {
@@ -251,24 +251,24 @@
     "price": 100,
     "upgrade_to_item_id": 10000,
     "batch_useable": true,
-    "quality": 4,
-    "exchange_stream": {
+    "quality": 2,
+    "exchange1": {
       "id": 10000,
-      "num": 6
+      "count": 6
     },
-    "exchange_list": [
+    "exchange2": [
       {
         "id": 10001,
-        "num": 2
+        "count": 2
       },
       {
         "id": 10002,
-        "num": 12
+        "count": 12
       }
     ],
-    "exchange_column": {
+    "exchange3": {
       "id": 10001,
-      "num": 11
+      "count": 11
     }
   }
 ]

@@ -11,7 +11,7 @@ using Luban;
 using SimpleJSON;
 
 
-namespace cfg
+namespace cfg.item
 {
 public sealed partial class Item : Luban.BeanBase
 {
@@ -26,14 +26,14 @@ public sealed partial class Item : Luban.BeanBase
         { var _j = _buf["expire_time"]; if (_j.Tag != JSONNodeType.None && _j.Tag != JSONNodeType.NullValue) { { if(!_j.IsNumber) { throw new SerializationException(); }  ExpireTime = _j; } } else { ExpireTime = null; } }
         { if(!_buf["batch_useable"].IsBoolean) { throw new SerializationException(); }  BatchUseable = _buf["batch_useable"]; }
         { if(!_buf["quality"].IsNumber) { throw new SerializationException(); }  Quality = (item.EQuality)_buf["quality"].AsInt; }
-        { if(!_buf["exchange_stream"].IsObject) { throw new SerializationException(); }  ExchangeStream = item.ItemExchange.DeserializeItemExchange(_buf["exchange_stream"]);  }
-        { var __json0 = _buf["exchange_list"]; if(!__json0.IsArray) { throw new SerializationException(); } ExchangeList = new System.Collections.Generic.List<item.ItemExchange>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { item.ItemExchange __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = item.ItemExchange.DeserializeItemExchange(__e0);  }  ExchangeList.Add(__v0); }   }
-        { if(!_buf["exchange_column"].IsObject) { throw new SerializationException(); }  ExchangeColumn = item.ItemExchange.DeserializeItemExchange(_buf["exchange_column"]);  }
+        { if(!_buf["exchange1"].IsObject) { throw new SerializationException(); }  Exchange1 = item.ItemCell.DeserializeItemCell(_buf["exchange1"]);  }
+        { var __json0 = _buf["exchange2"]; if(!__json0.IsArray) { throw new SerializationException(); } Exchange2 = new System.Collections.Generic.List<item.ItemCell>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { item.ItemCell __v0;  { if(!__e0.IsObject) { throw new SerializationException(); }  __v0 = item.ItemCell.DeserializeItemCell(__e0);  }  Exchange2.Add(__v0); }   }
+        { if(!_buf["exchange3"].IsObject) { throw new SerializationException(); }  Exchange3 = item.ItemCell.DeserializeItemCell(_buf["exchange3"]);  }
     }
 
     public static Item DeserializeItem(JSONNode _buf)
     {
-        return new Item(_buf);
+        return new item.Item(_buf);
     }
 
     /// <summary>
@@ -56,7 +56,7 @@ public sealed partial class Item : Luban.BeanBase
     /// 引用当前表
     /// </summary>
     public readonly int UpgradeToItemId;
-    public Item UpgradeToItemId_Ref;
+    public item.Item UpgradeToItemId_Ref;
     /// <summary>
     /// 过期时间
     /// </summary>
@@ -72,14 +72,14 @@ public sealed partial class Item : Luban.BeanBase
     /// <summary>
     /// 道具兑换配置
     /// </summary>
-    public readonly item.ItemExchange ExchangeStream;
-    public readonly System.Collections.Generic.List<item.ItemExchange> ExchangeList;
+    public readonly item.ItemCell Exchange1;
+    public readonly System.Collections.Generic.List<item.ItemCell> Exchange2;
     /// <summary>
     /// 道具兑换配置
     /// </summary>
-    public readonly item.ItemExchange ExchangeColumn;
+    public readonly item.ItemCell Exchange3;
    
-    public const int __ID__ = 2289459;
+    public const int __ID__ = 2107285806;
     public override int GetTypeId() => __ID__;
 
     public  void ResolveRef(Tables tables)
@@ -92,9 +92,9 @@ public sealed partial class Item : Luban.BeanBase
         
         
         
-        ExchangeStream?.ResolveRef(tables);
-        foreach (var _e in ExchangeList) { _e?.ResolveRef(tables); }
-        ExchangeColumn?.ResolveRef(tables);
+        Exchange1?.ResolveRef(tables);
+        foreach (var _e in Exchange2) { _e?.ResolveRef(tables); }
+        Exchange3?.ResolveRef(tables);
     }
 
     public override string ToString()
@@ -108,9 +108,9 @@ public sealed partial class Item : Luban.BeanBase
         + "expireTime:" + ExpireTime + ","
         + "batchUseable:" + BatchUseable + ","
         + "quality:" + Quality + ","
-        + "exchangeStream:" + ExchangeStream + ","
-        + "exchangeList:" + Luban.StringUtil.CollectionToString(ExchangeList) + ","
-        + "exchangeColumn:" + ExchangeColumn + ","
+        + "exchange1:" + Exchange1 + ","
+        + "exchange2:" + Luban.StringUtil.CollectionToString(Exchange2) + ","
+        + "exchange3:" + Exchange3 + ","
         + "}";
     }
 }
