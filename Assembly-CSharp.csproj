@@ -47,34 +47,52 @@
   <ItemGroup>
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslator.cs" />
+     <Compile Include="Assets\Scripts\Common\Http\SimpleHttp.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaTable.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbTexts.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
+     <Compile Include="Assets\Scripts\Common\Utility\GameUtility.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ValueObject.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerClick.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ClickEventListener.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\CoroutineTool.cs" />
+     <Compile Include="Assets\Scripts\Common\Singleton\Singleton.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\RawObject.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\DelegateAction.cs" />
+     <Compile Include="Assets\Scripts\Common\Json\XCModJSON.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDeleteItemDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\RenderCameraTool.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\SpinDatePickerDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedList.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ItemPosMgr.cs" />
      <Compile Include="Assets\Scripts\TestXlua\TestXlua1.cs" />
      <Compile Include="Assets\GuiProKit\Extensions\UIParticle\UIParticleSystem.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\ExampleGenConfig.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDoubleClick.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PageViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem13.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\StreamBufferPool.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\05_NoGc\NoGc.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerLongPress.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterDelegate.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDownUp.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedListNode.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\ScreenshotTool.cs" />
      <Compile Include="Assets\GuiProKit\Scripts\PanelCasualGame.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\HorizontalGalleryDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\MenuSceneScript.cs" />
+     <Compile Include="Assets\Scripts\Common\LuaDebug\LuaDebugTool.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
      <Compile Include="Assets\Scripts\CarLogic.cs" />
@@ -84,16 +102,19 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem5.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DeleteItemDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\Common\Http\HttpInfo.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListViewItem2.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResponsiveGridViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\DelegateBridge.cs" />
      <Compile Include="Assets\Scripts\Clock\Clock.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\MemoryLeakDetecter.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewWithStickyHeadDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem10.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\StringUtil.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\WebCamTool.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChangeItemHeightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResManager.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
@@ -103,20 +124,25 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
      <Compile Include="Assets\Scripts\CamLogic.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\Helper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
      <Compile Include="Assets\Tests\TestLuban.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
+     <Compile Include="Assets\Scripts\Configs\Tables.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
      <Compile Include="Assets\Tests\TestText.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslatorPool.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterStringBuilder.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDataSourceMgr.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\BeanBase.cs" />
+     <Compile Include="Assets\Scripts\Common\Json\MiniJSON.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToRefreshDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ObjPool.cs" />
      <Compile Include="Assets\GuiProKit\Scripts\PanelControlCasualGame.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\FPSDisplay.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
@@ -141,6 +167,7 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListView2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaBase.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\StatefullTest.cs" />
+     <Compile Include="Assets\Scripts\Common\Utility\DataUtils.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToLoadMoreDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\Tables.cs" />
@@ -159,10 +186,13 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
+     <Compile Include="Assets\Scripts\Common\Singleton\MonoSingleton.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RotateScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem4.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\SignatureLoader.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\PhysicsTool.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem12.cs" />
+     <Compile Include="Assets\Scripts\Common\Utility\BuildUtils.cs" />
      <Compile Include="Assets\Scripts\Graph\GraphCtrl.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\InternalGlobals.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem1.cs" />
@@ -174,9 +204,9 @@
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Icon_ItemIcons(x2)" />
      <Folder Include="Assets\ThirdParty\SuperScrollView" />
+     <Folder Include="Assets\Scripts\Common\Utility" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Shader &amp; Materials" />
-     <Folder Include="Assets\GUI PRO Kit - Casual Game\ResourcesData" />
      <Folder Include="Assets\Materials" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Sprites" />
@@ -188,7 +218,9 @@
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Frames" />
+     <Folder Include="Assets\Scripts\Common\Tools" />
      <Folder Include="Assets\StreamingAssets\Json" />
+     <Folder Include="Assets\Scripts\Common\CustomDataStruct" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Animatons" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Particle\Texture" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Particle" />
@@ -196,7 +228,6 @@
      <None Include="Assets\GuiProKit\Extensions\UIParticle\hidden particle.shader" />
      <None Include="Assets\ThirdParty\XLua\Resources\xlua\util.lua.txt" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts" />
-     <Folder Include="Assets\GUI PRO Kit - Casual Game\ResourcesData\Sprite\Demo" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\GuiProKit\ResourcesData" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Popups" />
@@ -217,21 +248,20 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Image" />
      <None Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\Changelog.txt" />
      <Folder Include="Assets\Scripts\TestXlua" />
+     <Folder Include="Assets\Scripts\Common\Singleton" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\GuiProKit\ResourcesData\Shader &amp; Materials\UIAdditive.shader" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Icon_ItemIcons(Original)" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Buttons" />
+     <Folder Include="Assets\GuiProKit\Doc" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro" />
      <None Include="Assets\StreamingAssets\Json\item_tbitem.json" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Popup" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Fonts" />
-     <Folder Include="Assets\GUI PRO Kit - Casual Game\ResourcesData\Sprite" />
+     <Folder Include="Assets\Scripts\Common\LuaDebug" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\perf" />
-     <Folder Include="Assets\GuiProKit\PSD" />
-     <Folder Include="Assets\GuiProKit\+Document README+" />
      <Folder Include="Assets\Resource" />
-     <Folder Include="Assets\GUI PRO Kit - Casual Game" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Button" />
      <Folder Include="Assets\Scripts\Configs\LubanLib" />
      <Folder Include="Assets\ThirdParty\XLua\Doc" />
@@ -253,6 +283,7 @@
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Scripts\Common\UIExtens" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\01_Helloworld" />
      <Folder Include="Assets\Scripts\Graph" />
@@ -266,13 +297,13 @@
      <None Include="Assets\StreamingAssets\Json\l10n_tbtexts.json" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Shaders" />
      <Folder Include="Assets\GuiProKit\Extensions" />
+     <Folder Include="Assets\Scripts\Common" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Slider" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\ThirdParty" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Fonts" />
      <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine" />
-     <Folder Include="Assets\GUI PRO Kit - Casual Game\ResourcesData\Sprite\Demo\Demo_Character" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Icon" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Resources" />
@@ -298,6 +329,7 @@
      <None Include="Assets\Scripts\TestXlua\TestXlua3.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented" />
+     <Folder Include="Assets\Scripts\Common\Json" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\ThirdParty\SuperScrollView\Scripts\Version 2.2.txt" />
      <Folder Include="Assets\Scripts\Clock" />
@@ -310,6 +342,7 @@
      <Folder Include="Assets\GuiProKit\Scripts" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI" />
+     <Folder Include="Assets\Prefabs\UI" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\11_RawObject" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Documentation" />
      <None Include="Assets\ThirdParty\XLua\Resources\tdr\tdr.lua.txt" />
@@ -333,6 +366,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Texture\Pic" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Scripts\Common\Http" />
      <Folder Include="Assets\Tests" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Icon_RuneIcons(x2)" />
      <Reference Include="UnityEngine">
@@ -1000,6 +1034,9 @@
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

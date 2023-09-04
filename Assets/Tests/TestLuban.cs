@@ -10,9 +10,11 @@ public class TestLuban : MonoBehaviour
     void Start()
     {
         Debug.Log("== TestLuban Start ==" + Application.streamingAssetsPath);
-        var tables = new cfg.Tables(LoadByteBuf);
-        Debug.Log("============sdfadsf=====" + tables.TbItem[10001].ToString());
-        Debug.Log("============l10n=====" + tables.TbItem[10001].Name);
+        // var tables = new cfg.Tables(LoadByteBuf);
+        // Debug.Log("============sdfadsf=====" + tables.TbItem[10001].ToString());
+        // Debug.Log("============l10n=====" + tables.TbItem[10001].Name);
+        
+        Debug.Log(cfg.Tables.Instance.TbItem[10001].ToString());
     }
 
     // Update is called once per frame
