@@ -106,6 +106,7 @@
      <Compile Include="Assets\Tests\TestLuban.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
+     <Compile Include="Assets\Tests\TestText.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
@@ -123,8 +124,8 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\GenAttributes.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\LeftToRightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgListViewDemoScript.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.ItemCell.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectCasters.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem11.cs" />
@@ -144,6 +145,7 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewItemCountMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\01_Helloworld\Helloworld.cs" />
+     <Compile Include="Assets\Scripts\UI\LanguageTextMeshPro.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem9.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
@@ -268,6 +270,7 @@
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo" />
      <Folder Include="Assets\ThirdParty\XLua\Src\TemplateEngine" />
      <None Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
+     <Folder Include="Assets\Scripts\UI" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\tdr" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial" />

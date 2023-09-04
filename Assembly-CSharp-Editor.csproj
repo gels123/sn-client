@@ -51,6 +51,7 @@
      <Compile Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI\Editor\BuildFromCLI.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Editor\LoopListViewEditor2.cs" />
+     <Compile Include="Assets\Editor\LanguageTextMeshProCreate.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\TemplateRef.cs" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
@@ -68,6 +69,7 @@
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Src\Editor\Template" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+     <Folder Include="Assets\Editor" />
      <Folder Include="Assets\ThirdParty\XLua\Src\Editor" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen" />
