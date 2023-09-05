@@ -12,7 +12,7 @@ public class TestText : MonoBehaviour
         if (go != null)
         {
             TextMeshProUGUI tmp = go.gameObject.GetComponent<TextMeshProUGUI>();
-            tmp.SetText("fsadfasdfadsfad");
+            tmp.SetText("<color=red>This text is <color=green>mostly </color>red <b>Left-aligned</b>");
         }
     }
 

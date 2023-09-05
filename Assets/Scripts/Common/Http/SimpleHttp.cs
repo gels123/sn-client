@@ -39,7 +39,7 @@ public class SimpleHttp : MonoBehaviour
                 }
                 catch (Exception ex)
                 {
-                    Debug.LogError("http timeout callback got exception " + ex.Message + "\n" + ex.StackTrace);
+                    Logger.LogError("http timeout callback got exception " + ex.Message + "\n" + ex.StackTrace);
                 }
 
                 DestroyImmediate(gameObject);
@@ -116,9 +116,11 @@ public class SimpleHttp : MonoBehaviour
         }
         catch (Exception ex)
         {
-            Debug.LogError("http complete callback got exception " + ex.Message + "\n" + ex.StackTrace);
+            Logger.LogError("http complete callback got exception " + ex.Message + "\n" + ex.StackTrace);
+            Logger.Log("http complete callback got exception " + ex.Message + "\n" + ex.StackTrace);
         }
 
         DestroyImmediate(gameObject);
     }
+
 }

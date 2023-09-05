@@ -95,7 +95,6 @@ public class LuaDebugTool
         {
             try
             {
-
                 var value = pinfo.GetValue(obj, null);
                 var valueType = value.GetType();
 
@@ -106,7 +105,6 @@ public class LuaDebugTool
                     valueType = valueType.ToString(),
                     isValue = checkIsValue(valueType)
                 });
-
             }
             catch (Exception e)
             {
@@ -118,7 +116,6 @@ public class LuaDebugTool
                     isValue = false
                 });
             }
-
         }
         FieldInfo[] fields = t.GetFields(BindingFlags.Public | BindingFlags.Static | BindingFlags.Instance);
         foreach (FieldInfo fi in fields)

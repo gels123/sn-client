@@ -12,6 +12,7 @@ using SimpleJSON;
 
 namespace cfg
 {
+    
 public partial class Tables
 {
     public item.TbItem TbItem {get; }

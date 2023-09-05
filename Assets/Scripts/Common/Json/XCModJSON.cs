@@ -1,7 +1,8 @@
-using System;
-using System.Collections;
-using System.Text;
-using System.Collections.Generic;
+
+    using System;
+    using System.Collections;
+    using System.Text;
+    using System.Collections.Generic;
 using System.Globalization;
 
     public class XCModJSON

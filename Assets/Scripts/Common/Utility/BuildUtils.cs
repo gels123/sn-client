@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
 /// <summary>
+/// added by wsh @ 2018.01.04
 /// 功能：构建相关配置和通用函数
 /// </summary>
 
@@ -55,7 +56,7 @@ public class BuildUtils
             }
             catch (System.Exception ex)
             {
-                Debug.LogError(string.Format("parse version error. clientversion: {0} serverversion: {1}\n {2}\n{3}", sourceVersion, targetVersion, ex.Message, ex.StackTrace));
+                Logger.LogError(string.Format("parse version error. clientversion: {0} serverversion: {1}\n {2}\n{3}", sourceVersion, targetVersion, ex.Message, ex.StackTrace));
                 return false;
             }
         }

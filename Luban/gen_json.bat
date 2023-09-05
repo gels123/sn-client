@@ -11,6 +11,6 @@ dotnet %GEN_CLIENT% ^
     -x inputDataDir=%CONF_ROOT%\Datas ^
     -x outputCodeDir=%WORKSPACE%\Assets\Scripts\Configs\Gen ^
     -x outputDataDir=%WORKSPACE%\Assets\StreamingAssets\Json ^
-    -x l10n.textProviderFile=*@%WORKSPACE%\Luban\Configs\Datas\l10n\texts.json
+    -x l10n.textProviderFile=*@%WORKSPACE%\Luban\Configs\Datas\l10n\texts.xlsx
         
 pause

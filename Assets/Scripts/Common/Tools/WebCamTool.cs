@@ -52,12 +52,13 @@ public class WebCamTool : MonoSingleton<WebCamTool>
             return;
 
         float ratio = (float)webCamera.width / (float)webCamera.height;
-        fit.aspectRatio = ratio; // Set the aspect ratio
+        fit.aspectRatio = ratio; // Set the aspect ratio  
 
-        float scaleY = webCamera.videoVerticallyMirrored ? -1f : 1f; // Find if the camera is mirrored or not
-        background.rectTransform.localScale = new Vector3(Scale, scaleY * Scale, Scale); // Swap the mirrored camera
-        int orientY = isFront ? 180 : 0;//front and back switch
-        int orientZ = -webCamera.videoRotationAngle;
+        float scaleY = webCamera.videoVerticallyMirrored ? -1f : 1f; // Find if the camera is mirrored or not  
+        background.rectTransform.localScale = new Vector3(Scale, scaleY * Scale, Scale); // Swap the mirrored camera  
+
+        int orientY = isFront ? 180 : 0;//front and back switch
+        int orientZ = -webCamera.videoRotationAngle;
 
         background.rectTransform.localEulerAngles = new Vector3(0, orientY, orientZ);
     }
@@ -75,8 +76,8 @@ public class WebCamTool : MonoSingleton<WebCamTool>
             {
                 for (int i = 0; i < devices.Length; i++)
                 {
-                    //开启前置后置摄像头
-                    if (devices[i].isFrontFacing == isFront)
+                    //开启前置后置摄像头
+                    if (devices[i].isFrontFacing == isFront)
                     {
                         DeviceName = devices[i].name;
                         webCamera = new WebCamTexture(DeviceName, Screen.width, Screen.height, 60);
@@ -88,4 +89,5 @@ public class WebCamTool : MonoSingleton<WebCamTool>
             }
         }
     }
+
 }
