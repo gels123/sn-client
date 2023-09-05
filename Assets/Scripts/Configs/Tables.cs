@@ -7,26 +7,21 @@ using System.Collections.Generic;
 using System.IO;
 using SimpleJSON;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 namespace cfg
 {
-    public partial class Tables
+    public class TablesEx : Tables
     {
-        // 初始化
-        public void Init()
-        {
-            
-        }
-        
         // 单例
-        private static Tables instance;
-        public static Tables Instance
+        private static TablesEx instance;
+        public static TablesEx Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new Tables(loader);
+                    instance = new TablesEx();
                     if (instance != null)
                     {
                         instance.Init();
@@ -36,9 +31,10 @@ namespace cfg
             }
         }
         
-        private static JSONNode loader(string fileName)
+        // 初始化
+        public void Init()
         {
-            return JSON.Parse(File.ReadAllText(Application.streamingAssetsPath +"/Json/" + fileName + ".json", System.Text.Encoding.UTF8));
+            
         }
         
         public void Dispose()

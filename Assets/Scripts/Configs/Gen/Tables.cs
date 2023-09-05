@@ -7,28 +7,72 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.IO;
 using Luban;
 using SimpleJSON;
+using UnityEngine;
 
 namespace cfg
 {
-    
 public partial class Tables
 {
-    public item.TbItem TbItem {get; }
-    public l10n.TbTexts TbTexts {get; }
-
-    public Tables(System.Func<string, JSONNode> loader)
+    private item.TbItem _TbItem;
+    public item.TbItem TbItem
     {
-        TbItem = new item.TbItem(loader("item_tbitem"));
-        TbTexts = new l10n.TbTexts(loader("l10n_tbtexts"));
-        ResolveRef();
+        get
+        {
+            if (_TbItem == null)
+            {
+                _TbItem = new item.TbItem(loader("item_tbitem"));
+                _TbItem.ResolveRef(this);
+            }
+            return _TbItem;
+        }
+        set
+        {
+            _TbItem = value;
+        }
+    }
+    
+    private l10n.TbTexts _TbTexts;
+    public l10n.TbTexts TbTexts
+    {
+        get
+        {
+            if (_TbTexts == null)
+            {
+                _TbTexts = new l10n.TbTexts(loader("l10n_tbtexts"));
+                _TbTexts.ResolveRef(this);
+            }
+            return _TbTexts;
+        }
+        set
+        {
+            _TbTexts = value;
+        }
+    }
+    
+    
+    public Tables(bool load = false)
+    {
+        if (load)
+        {
+            TbItem = new item.TbItem(loader("item_tbitem"));
+            TbTexts = new l10n.TbTexts(loader("l10n_tbtexts"));
+            ResolveRef();
+        }
     }
     
     private void ResolveRef()
     {
         TbItem.ResolveRef(this);
         TbTexts.ResolveRef(this);
+    }
+    
+    protected virtual JSONNode loader(string file)
+    {
+        return JSON.Parse(File.ReadAllText(Application.streamingAssetsPath +"/Json/" + file + ".json", System.Text.Encoding.UTF8));
     }
 }
 
