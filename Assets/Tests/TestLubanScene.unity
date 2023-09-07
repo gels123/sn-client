@@ -556,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1032611619}
   - component: {fileID: 1032611621}
-  - component: {fileID: 1032611620}
+  - component: {fileID: 1032611622}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -584,7 +584,15 @@ RectTransform:
   m_AnchoredPosition: {x: -267.37204, y: 121.09457}
   m_SizeDelta: {x: 93.0559, y: 21.0108}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1032611620
+--- !u!222 &1032611621
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032611618}
+  m_CullTransparentMesh: 1
+--- !u!114 &1032611622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -604,7 +612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TestTexts
+  m_text: TestTest
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -613,8 +621,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280893920
-  m_fontColor: {r: 0.8773585, g: 0.25585368, b: 0.16140087, a: 1}
+    rgba: 4280235985
+  m_fontColor: {r: 0.8207547, g: 0.21741843, b: 0.12001601, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -631,15 +639,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.8
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -667,20 +675,12 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -335.16916, w: 0}
+  m_margin: {x: -216.19055, y: -70.820984, z: -283.28424, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1032611621
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032611618}
-  m_CullTransparentMesh: 1
 --- !u!1 &1569211579
 GameObject:
   m_ObjectHideFlags: 0
