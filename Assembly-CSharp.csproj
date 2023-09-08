@@ -295,6 +295,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Doc" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Icon_PictoIcons(x2)" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Slider" />
+     <Folder Include="Assets\AddressableAssetsData\Android" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Scripts" />
      <Folder Include="Assets\Textures" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scenes" />
@@ -379,7 +380,6 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI" />
      <Folder Include="Assets\Prefabs\UI" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\11_RawObject" />
-     <Folder Include="Assets\AddressableAssetsData\Windows" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Documentation" />
      <None Include="Assets\ThirdParty\XLua\Resources\tdr\tdr.lua.txt" />
      <Folder Include="Assets\Scripts\UI" />
