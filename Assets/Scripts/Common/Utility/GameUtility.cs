@@ -83,10 +83,10 @@ public class GameUtility
     /// </summary>
     public static bool IsPointerOverGameObject()
     {
-#if UNITY_EDITOR
-        return EventSystem.current.IsPointerOverGameObject();
-#elif UNITY_ANDROID || UNITY_IOS
+#if UNITY_ANDROID || UNITY_IOS
         return EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
+#else
+        return EventSystem.current.IsPointerOverGameObject();
 #endif
     }
 

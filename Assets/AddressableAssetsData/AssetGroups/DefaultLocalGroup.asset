@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DefaultLocalGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: DefaultLocalGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3d4b50aa7fdf1134691e93db48007085
+  m_SerializeEntries:
+  - m_GUID: c0a6d4bae1dd67d4b8b0e5c5141e838e
+    m_Address: Assets/Tests/TestAddressable/Button3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b7e6b0d528e833446b32aa3a324706cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 335524101d38cf74690425f4a1891167, type: 2}
+    - {fileID: 11400000, guid: 7608623706648b546889d2bb2f398da9, type: 2}

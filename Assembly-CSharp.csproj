@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2022_3_4;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_4;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -56,10 +56,9 @@
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\MessageQueue.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\ValueObject.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\BaseLoader.cs" />
      <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerClick.cs" />
+     <Compile Include="Assets\Tests\TestAddressable\TestAddressable1.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\Config\Versions.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ClickEventListener.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\CoroutineTool.cs" />
      <Compile Include="Assets\Scripts\Framework\Message\MessageName.cs" />
@@ -93,7 +92,6 @@
      <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerLongPress.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterDelegate.cs" />
      <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDownUp.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AssetBundleManager.Editor.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedListNode.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
@@ -107,6 +105,7 @@
      <Compile Include="Assets\Scripts\Common\LuaDebug\LuaDebugTool.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
+     <Compile Include="Assets\Tests\TestLuban\TestText.cs" />
      <Compile Include="Assets\Scripts\CarLogic.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
      <Compile Include="Assets\Scripts\TestXlua\MyLuaBehaviour.cs" />
@@ -125,10 +124,7 @@
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\MemoryLeakDetecter.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewWithStickyHeadDemoScript.cs" />
      <Compile Include="Assets\Scripts\Framework\UI\NoWrapText.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AssetBundleManager.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\Config\AssetsPathMapping.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem10.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\AssetBundleAsyncLoader.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\StringUtil.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
@@ -136,32 +132,26 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChangeItemHeightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResManager.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\Utility\AssetBundleUtility.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\GenericDelegateBridge.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem8.cs" />
      <Compile Include="Assets\Scripts\MainCam.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\AssetAsyncLoader.cs" />
      <Compile Include="Assets\Scripts\CamLogic.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\Config\Manifest.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\UnityWebAssetRequest.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\Helper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
-     <Compile Include="Assets\Tests\TestLuban.cs" />
+     <Compile Include="Assets\Tests\TestLuban\TestLuban.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
      <Compile Include="Assets\Scripts\Configs\Tables.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\Interface\ByteBuffer.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
-     <Compile Include="Assets\Tests\TestText.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslatorPool.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterStringBuilder.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\EditorAssetAsyncLoader.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDataSourceMgr.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjNetworkBase.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\BeanBase.cs" />
@@ -185,11 +175,9 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectCasters.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem11.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\Config\AssetBundleConfig.cs" />
      <Compile Include="Assets\Scripts\Configs\URLSetting.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DragChangSizeScript.cs" />
      <Compile Include="Assets\Scripts\MoveLogic.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\WebAssetRequest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ClickAndLoadMoreDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
@@ -201,7 +189,6 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToLoadMoreDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\Tables.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\EditorAssetBundleAsyncLoader.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewItemCountMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
@@ -216,7 +203,6 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation\AssetBundleRequest.cs" />
      <Compile Include="Assets\Scripts\Common\Singleton\MonoSingleton.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RotateScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem4.cs" />
@@ -231,7 +217,7 @@
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjSemaphore.cs" />
      <Compile Include="Assets\Scripts\fixtest.cs" />
      <Folder Include="Assets" />
-     <Folder Include="Assets\Scripts\Framework\AssetBundle\Config" />
+     <Folder Include="Assets\AddressableAssetsData\AssetGroupTemplates" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Label" />
      <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
      <None Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
@@ -250,7 +236,9 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Character" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\otherfiles" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Sprite Assets" />
+     <Folder Include="Assets\Tests\TestLuban" />
      <Folder Include="Assets\Scripts\Common\Logger" />
+     <Folder Include="Assets\AddressableAssetsData\AssetGroups\Schemas" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\Scripts\Framework\Socket\enum" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Frames" />
@@ -289,7 +277,6 @@
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\GuiProKit\ResourcesData\Shader &amp; Materials\UIAdditive.shader" />
-     <Folder Include="Assets\Scripts\Framework\AssetBundle\AsyncOperation" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Icon_ItemIcons(Original)" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Buttons" />
      <Folder Include="Assets\GuiProKit\Doc" />
@@ -299,8 +286,9 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Fonts" />
      <Folder Include="Assets\Scripts\Common\LuaDebug" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\perf" />
+     <Folder Include="Assets\Tests\TestAddressable" />
      <Folder Include="Assets\Scripts\Framework\Socket\HjNetwork" />
-     <Folder Include="Assets\Resource" />
+     <Folder Include="Assets\Resources" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Button" />
      <Folder Include="Assets\Scripts\Framework" />
      <Folder Include="Assets\Scripts\Configs\LubanLib" />
@@ -314,7 +302,6 @@
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources" />
-     <Folder Include="Assets\Scripts\Framework\AssetBundle" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\08_Hotfix" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_ClanFlag" />
      <Folder Include="Assets\Scripts\Configs\Gen" />
@@ -359,11 +346,13 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod" />
      <None Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
+     <Folder Include="Assets\AddressableAssetsData\AssetGroups" />
      <None Include="Assets\GuiProKit\ResourcesData\Shader &amp; Materials\MobileAdditive.shader" />
      <None Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Texture" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_CountryFlag" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest" />
+     <Folder Include="Assets\AddressableAssetsData\DataBuilders" />
      <Folder Include="Assets\ThirdParty\XLua\Src" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Scripts\TestXlua\TestXlua2.lua.txt" />
@@ -374,10 +363,10 @@
      <None Include="Assets\Scripts\TestXlua\TestXlua3.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented" />
+     <Folder Include="Assets\AddressableAssetsData" />
      <Folder Include="Assets\Scripts\Common\Json" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\ThirdParty\SuperScrollView\Scripts\Version 2.2.txt" />
-     <Folder Include="Assets\Scripts\Framework\AssetBundle\Utility" />
      <Folder Include="Assets\Scripts\Clock" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\05_NoGc" />
@@ -390,6 +379,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI" />
      <Folder Include="Assets\Prefabs\UI" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\11_RawObject" />
+     <Folder Include="Assets\AddressableAssetsData\Windows" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Documentation" />
      <None Include="Assets\ThirdParty\XLua\Resources\tdr\tdr.lua.txt" />
      <Folder Include="Assets\Scripts\UI" />
@@ -441,12 +431,6 @@
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ContentLoadModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
@@ -606,9 +590,6 @@
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
@@ -1042,6 +1023,9 @@
      <Reference Include="Unity.Timeline">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Addressables.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.AI.Navigation">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
      </Reference>
@@ -1051,8 +1035,14 @@
      <Reference Include="Unity.AI.Navigation.Updater">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ResourceManager">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -1075,6 +1065,9 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
      </Reference>
@@ -1083,6 +1076,12 @@
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

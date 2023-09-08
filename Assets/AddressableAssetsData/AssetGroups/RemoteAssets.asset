@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RemoteAssets
+  m_EditorClassIdentifier: 
+  m_GroupName: RemoteAssets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ee621cee56af46f4cba08cfa3121241b
+  m_SerializeEntries:
+  - m_GUID: 4de11cf972d52514bb07f884f7e614c3
+    m_Address: Assets/Tests/TestAddressable/Button4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b7e6b0d528e833446b32aa3a324706cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c910ccb841d172240914c3d6ec7ba0ca, type: 2}
+    - {fileID: 11400000, guid: 6dc69c2a07cad4646b4d232352f27fe7, type: 2}
