@@ -21,7 +21,13 @@ MonoBehaviour:
     m_Address: Assets/Tests/TestAddressable/Button4.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
-    - default
+    - test
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0a6d4bae1dd67d4b8b0e5c5141e838e
+    m_Address: Assets/Tests/TestAddressable/Button3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - test
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b7e6b0d528e833446b32aa3a324706cf, type: 2}
