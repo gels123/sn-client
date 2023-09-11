@@ -48,6 +48,7 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Generator.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Editor\ExampleConfig.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Hotfix.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Editor\Il2cppCustomFlag.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI\Editor\BuildFromCLI.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Editor\LoopListViewEditor2.cs" />
@@ -67,6 +68,7 @@
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+     <Folder Include="Assets\Scripts\Framework\AssetManager\Editor" />
      <Folder Include="Assets\ThirdParty\XLua\Src\Editor\Template" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
      <Folder Include="Assets\Editor" />

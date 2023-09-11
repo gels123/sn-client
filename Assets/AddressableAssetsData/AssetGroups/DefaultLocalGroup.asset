@@ -23,6 +23,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - default
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fa16a2ac931a334794274959168fb8a
+    m_Address: Assets/AssetsPackage/Audio/btn_click.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b7e6b0d528e833446b32aa3a324706cf, type: 2}
   m_SchemaSet:

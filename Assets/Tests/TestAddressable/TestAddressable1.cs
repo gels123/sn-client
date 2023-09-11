@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
+using Skywatch.AssetManagement;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -13,6 +14,9 @@ public class TestAddressable1 : MonoBehaviour
 {
     public Button btn;
     public Button btn2;
+
+    public Button btn3;
+    public AssetReference aRef;
     // Start is called before the first frame update
     void Start()
     {
@@ -78,6 +82,50 @@ public class TestAddressable1 : MonoBehaviour
                     }
                 };
             });
+            btn3.onClick.AddListener((() =>
+            {
+                // var ok = AssetManager.LoadAssetAsync(aRef, out AsyncOperationHandle<AudioClip> handle);
+                var key = "Assets/AssetsPackage/Audio/btn_click.wav";
+                var ok = AssetManager.LoadAssetAsync(key, out AsyncOperationHandle<AudioClip> handle);
+                if (ok)
+                {
+                    AudioSource au = gameObject.GetComponent<AudioSource>();
+                    au.PlayOneShot(handle.Result);
+                }
+                else
+                {
+                    handle.Completed += (handle) =>
+                    {
+                        AudioSource au = gameObject.GetComponent<AudioSource>();
+                        au.PlayOneShot(handle.Result);
+                        AssetManager.Unload(key);
+                    };
+                }
+
+                var handle3 = AssetManager.LoadAssetsByLabelAsync("default");
+                handle3.Completed += (h =>
+                {
+                    if (h.Status == AsyncOperationStatus.Succeeded)
+                    {
+                        var list = h.Result;
+                        var num = list.Count;
+                    }
+                });
+                
+                // if (AssetManager.InstantiateAsync(reference, Vector3.zero, Quaternion.identity, null, out AsyncOperationHandle<ParticleSystem> handle))
+                // {
+                //     //The particle system has already been loaded.
+                //     Destroy(handle.Result.gameObject, 5f);
+                // }
+                // else
+                // {
+                //     //The particle system was not yet loaded.
+                //     handle.Completed += op =>
+                //     {
+                //         Destroy(op.Result.gameObject, 5f);
+                //     };
+                // }
+            }));
         }
     }
 
