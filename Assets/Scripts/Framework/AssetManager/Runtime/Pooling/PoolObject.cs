@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace AssetManager.Pooling
+namespace AssetManagement.Pooling
 {
     public sealed class PoolObject : MonoBehaviour, IPoolObject
     {

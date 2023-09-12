@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AssetManager
+namespace AssetManagement
 {
     public static class ExtensionMethods
     {

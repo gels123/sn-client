@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AssetManager.Pooling
+namespace AssetManagement.Pooling
 {
     public interface IPool<in TPoolObjectType> where TPoolObjectType : IPoolObject
     {

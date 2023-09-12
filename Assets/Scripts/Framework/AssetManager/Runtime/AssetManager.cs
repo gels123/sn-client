@@ -8,7 +8,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using Object = UnityEngine.Object;
 
-namespace AssetManager
+namespace AssetManagement
 {
     /// <summary>
     /// Handles all loading, unloading, instantiating, and destroying of AssetReferences and their associated Objects.

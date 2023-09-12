@@ -1,5 +1,5 @@
 ﻿
-namespace AssetManager.Pooling
+namespace AssetManagement.Pooling
 {
     public delegate void DelegateAwakeFromPool();
     public delegate void DelegateReturnToPool();

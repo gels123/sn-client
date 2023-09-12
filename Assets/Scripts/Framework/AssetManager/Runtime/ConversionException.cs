@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AssetManager
+namespace AssetManagement
 {
     public class ConversionException : Exception
     {
