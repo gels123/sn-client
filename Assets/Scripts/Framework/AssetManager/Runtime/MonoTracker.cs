@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Skywatch.AssetManagement
+namespace AssetManager
 {
     public class MonoTracker : MonoBehaviour
     {

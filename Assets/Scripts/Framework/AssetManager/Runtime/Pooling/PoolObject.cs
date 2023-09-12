@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Skywatch.AssetManagement.Pooling
+namespace AssetManager.Pooling
 {
     public sealed class PoolObject : MonoBehaviour, IPoolObject
     {

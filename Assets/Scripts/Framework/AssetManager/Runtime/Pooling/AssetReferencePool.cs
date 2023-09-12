@@ -2,13 +2,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Skywatch.AssetManagement;
+using AssetManager;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using Object = UnityEngine.Object;
 
-namespace Skywatch.AssetManagement.Pooling
+namespace AssetManager.Pooling
 {
     public abstract class AssetReferencePool : IPool, IDisposable
     {

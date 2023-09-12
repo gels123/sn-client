@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2022_3_4;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_4;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;FISHNET;FISHNET_V3;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,190 +41,193 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslator.cs" />
      <Compile Include="Assets\Scripts\Common\Http\SimpleHttp.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\LuaTable.cs" />
-     <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjTcpNetwork.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\l10n.TbTexts.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
-     <Compile Include="Assets\Scripts\Common\Utility\GameUtility.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\MessageQueue.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaEnv.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ValueObject.cs" />
-     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerClick.cs" />
      <Compile Include="Assets\Tests\TestAddressable\TestAddressable1.cs" />
-     <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ClickEventListener.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\CoroutineTool.cs" />
-     <Compile Include="Assets\Scripts\Framework\Message\MessageName.cs" />
-     <Compile Include="Assets\Scripts\Common\Singleton\Singleton.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\RawObject.cs" />
      <Compile Include="Assets\Scripts\Framework\Message\CallBack.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\DelegateAction.cs" />
      <Compile Include="Assets\Scripts\Common\UIAnim\UIBaseAnimation.cs" />
-     <Compile Include="Assets\Scripts\Common\Json\XCModJSON.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDeleteItemDemoScript.cs" />
-     <Compile Include="Assets\Scripts\Common\Tools\RenderCameraTool.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\ExtensionMethods.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Coroutine_Runner.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\SpinDatePickerDemoScript.cs" />
-     <Compile Include="Assets\Scripts\Framework\Socket\Interface\IPv6SupportMidleware.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedList.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\ItemPosMgr.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\IPoolObject.cs" />
-     <Compile Include="Assets\Scripts\TestXlua\TestXlua1.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\LoadAssetsByLabelOperation.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjNetworkEvt.cs" />
      <Compile Include="Assets\GuiProKit\Extensions\UIParticle\UIParticleSystem.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\ExampleGenConfig.cs" />
-     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDoubleClick.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PageViewDemoScript.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem13.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\StreamBufferPool.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\enum\ESocketError.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\05_NoGc\NoGc.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\ObjectPool.cs" />
-     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerLongPress.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterDelegate.cs" />
-     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDownUp.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedListNode.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\GridViewDemoScript.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\ScreenshotTool.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\CodeEmit.cs" />
      <Compile Include="Assets\GuiProKit\Scripts\PanelCasualGame.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaBehaviour.cs" />
      <Compile Include="Assets\Scripts\Common\Logger\LoggerHelper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\HorizontalGalleryDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\MenuSceneScript.cs" />
-     <Compile Include="Assets\Scripts\Common\LuaDebug\LuaDebugTool.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
-     <Compile Include="Assets\Tests\TestLuban\TestText.cs" />
      <Compile Include="Assets\Scripts\CarLogic.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\AsyncTest.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\AssetManager.cs" />
      <Compile Include="Assets\Scripts\TestXlua\MyLuaBehaviour.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.TbItem.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem5.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DeleteItemDemoScript.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
      <Compile Include="Assets\Scripts\Framework\Message\Message.cs" />
-     <Compile Include="Assets\Scripts\Common\Http\HttpInfo.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListViewItem2.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResponsiveGridViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\DelegateBridge.cs" />
-     <Compile Include="Assets\Scripts\Common\Logger\Logger.cs" />
      <Compile Include="Assets\Scripts\Clock\Clock.cs" />
      <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\ConversionException.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\MemoryLeakDetecter.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewWithStickyHeadDemoScript.cs" />
      <Compile Include="Assets\Scripts\Framework\UI\NoWrapText.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem10.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\StringUtil.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\WebCamTool.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChangeItemHeightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResManager.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\GenericDelegateBridge.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem8.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\PoolObject.cs" />
      <Compile Include="Assets\Scripts\MainCam.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
      <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\IPool.cs" />
-     <Compile Include="Assets\Scripts\CamLogic.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\Helper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\TypeExtensions.cs" />
      <Compile Include="Assets\Tests\TestLuban\TestLuban.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.Item.cs" />
-     <Compile Include="Assets\Scripts\Configs\Tables.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\Interface\ByteBuffer.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\MonoTracker.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectTranslatorPool.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterStringBuilder.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDataSourceMgr.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjNetworkBase.cs" />
-     <Compile Include="Assets\Scripts\Configs\LubanLib\BeanBase.cs" />
-     <Compile Include="Assets\Scripts\Common\Json\MiniJSON.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\Interface\IMessageQueue.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToRefreshDemoScript.cs" />
-     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ObjPool.cs" />
-     <Compile Include="Assets\GuiProKit\Scripts\PanelControlCasualGame.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\FPSDisplay.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\04_LuaObjectOrented\InvokeLua.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\l10n.Texts.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\11_RawObject\RawObjectTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\MethodWarpsCache.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\GenAttributes.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\LeftToRightDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgListViewDemoScript.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\item.ItemCell.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
      <Compile Include="Assets\Scripts\Framework\UI\UINoticeTip.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\ObjectCasters.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem11.cs" />
      <Compile Include="Assets\Scripts\Configs\URLSetting.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DragChangSizeScript.cs" />
      <Compile Include="Assets\Scripts\MoveLogic.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ClickAndLoadMoreDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\LuaDLL.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListView2.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\LuaBase.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\StatefullTest.cs" />
-     <Compile Include="Assets\Scripts\Common\Utility\DataUtils.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PullToLoadMoreDemoScript.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\Tables.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DataSourceMgr.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewItemCountMgr.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\01_Helloworld\Helloworld.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem0.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RotateScript.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\SignatureLoader.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\PhysicsTool.cs" />
+     <Compile Include="Assets\Scripts\Graph\GraphCtrl.cs" />
+     <Compile Include="Assets\ThirdParty\FishNet\Upgrading\MirrorUpgrade.cs" />
+     <Compile Include="Assets\Scripts\Framework\UI\LanguageTextMeshPro.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem1.cs" />
+     <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjSemaphore.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\LuaTable.cs" />
+     <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjTcpNetwork.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
+     <Compile Include="Assets\Scripts\Common\Utility\GameUtility.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ValueObject.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerClick.cs" />
+     <Compile Include="Assets\Scripts\Configs\Gen\item.EQuality.cs" />
+     <Compile Include="Assets\Scripts\Framework\Message\MessageName.cs" />
+     <Compile Include="Assets\Scripts\Common\Singleton\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\DelegateAction.cs" />
+     <Compile Include="Assets\Scripts\Common\Json\XCModJSON.cs" />
+     <Compile Include="Assets\Scripts\Common\Tools\RenderCameraTool.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\ExtensionMethods.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
+     <Compile Include="Assets\Scripts\Framework\Socket\Interface\IPv6SupportMidleware.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedList.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\IPoolObject.cs" />
+     <Compile Include="Assets\Scripts\TestXlua\TestXlua1.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\LoadAssetsByLabelOperation.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\ExampleGenConfig.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDoubleClick.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PageViewDemoScript.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem13.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\StreamBufferPool.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\05_NoGc\NoGc.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerLongPress.cs" />
+     <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDownUp.cs" />
+     <Compile Include="Assets\ThirdParty\FishNet\Upgrading\UpgradeFromMirrorMenu.cs" />
+     <Compile Include="Assets\Scripts\Common\LuaDebug\LuaDebugTool.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
+     <Compile Include="Assets\Tests\TestLuban\TestText.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\AssetManager.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\Common\Http\HttpInfo.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListViewItem2.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResponsiveGridViewDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Common\Logger\Logger.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewWithStickyHeadDemoScript.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem10.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\HotfixTest2.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\StringUtil.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChangeItemHeightDemoScript.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\GenericDelegateBridge.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem8.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\PoolObject.cs" />
+     <Compile Include="Assets\Scripts\CamLogic.cs" />
+     <Compile Include="Assets\Scripts\Configs\Tables.cs" />
+     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\MonoTracker.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterStringBuilder.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\LuaException.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDataSourceMgr.cs" />
+     <Compile Include="Assets\Scripts\Configs\LubanLib\BeanBase.cs" />
+     <Compile Include="Assets\Scripts\Common\Json\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\Common\CustomDataStruct\ObjPool.cs" />
+     <Compile Include="Assets\GuiProKit\Scripts\PanelControlCasualGame.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TreeViewDemoScript.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\LuaFunction.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgDataSourceMgr.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\DragChangSizeScript.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ClickAndLoadMoreDemoScript.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\LuaDLL.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Scripts\LoopListView2.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Examples\08_Hotfix\StatefullTest.cs" />
+     <Compile Include="Assets\Scripts\Common\Utility\DataUtils.cs" />
+     <Compile Include="Assets\ThirdParty\XLua\Src\TemplateEngine\TemplateEngine.cs" />
+     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RightToLeftDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem3.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem9.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\CopyByValue.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem14.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem0.cs" />
      <Compile Include="Assets\Scripts\Configs\Gen\common.EBoolOperator.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\VerticalGalleryDemoScript.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\StaticLuaCallbacks.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\SignatureLoaderTest.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
      <Compile Include="Assets\Scripts\Common\Singleton\MonoSingleton.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\RotateScript.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem4.cs" />
-     <Compile Include="Assets\ThirdParty\XLua\Src\SignatureLoader.cs" />
-     <Compile Include="Assets\Scripts\Common\Tools\PhysicsTool.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem12.cs" />
      <Compile Include="Assets\Scripts\Common\Utility\BuildUtils.cs" />
-     <Compile Include="Assets\Scripts\Graph\GraphCtrl.cs" />
-     <Compile Include="Assets\Scripts\Framework\UI\LanguageTextMeshPro.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\InternalGlobals.cs" />
      <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\PoolBehaviour.cs" />
-     <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem1.cs" />
      <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\AssetReferencePool.cs" />
-     <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjSemaphore.cs" />
      <Compile Include="Assets\Scripts\fixtest.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\AddressableAssetsData\AssetGroupTemplates" />
@@ -265,18 +268,23 @@
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\GuiProKit\ResourcesData" />
+     <None Include="Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\README.txt" />
+     <None Include="Assets\ThirdParty\FishNet\LICENSE.txt" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Popups" />
      <Folder Include="Assets\Scripts" />
+     <None Include="Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\LICENSE.txt" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Background" />
      <Folder Include="Assets\Prefabs" />
      <Folder Include="Assets\GuiProKit\Extensions\UIParticle" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\ThirdParty\FishNet" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources" />
      <Folder Include="Assets\AssetsPackage" />
      <Folder Include="Assets\AddressableAssetsData" />
      <Folder Include="Assets\Scripts\Configs" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript" />
+     <None Include="Assets\ThirdParty\FishNet\VERSION.txt" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_DemoScene_Particle" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\03_UIEvent" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Icon_RuneIcons(Original)" />
@@ -285,6 +293,7 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Image" />
      <None Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\Changelog.txt" />
      <Folder Include="Assets\Scripts\TestXlua" />
+     <Folder Include="Assets\ThirdParty\FishNet\Upgrading" />
      <Folder Include="Assets\Scripts\Common\Singleton" />
      <Folder Include="Assets\Scripts\Framework\Message" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\CSharpCallLua" />
@@ -308,6 +317,7 @@
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Icon_PictoIcons(x2)" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Slider" />
      <Folder Include="Assets\AddressableAssetsData\Android" />
+     <Folder Include="Assets\ThirdParty\FishNet\Plugins\GameKit" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Scripts" />
      <Folder Include="Assets\Textures" />
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo\Scenes" />
@@ -327,6 +337,7 @@
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Scripts\Common\UIExtens" />
      <Folder Include="Assets\AssetsPackage\Audio" />
+     <None Include="Assets\ThirdParty\FishNet\DOCUMENTATION.txt" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\01_Helloworld" />
      <Folder Include="Assets\Scripts\Graph" />
@@ -396,6 +407,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\11_RawObject" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Documentation" />
      <None Include="Assets\ThirdParty\XLua\Resources\tdr\tdr.lua.txt" />
+     <Folder Include="Assets\ThirdParty\FishNet\Plugins\CodeAnalysis" />
      <Folder Include="Assets\Scripts\UI" />
      <None Include="Assets\ThirdParty\XLua\CHANGELOG.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Doc\Materials" />
@@ -406,10 +418,12 @@
      <Folder Include="Assets\ThirdParty\SuperScrollView\Demo" />
      <Folder Include="Assets\ThirdParty\XLua\Src\TemplateEngine" />
      <None Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
+     <Folder Include="Assets\ThirdParty\FishNet\Plugins" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\ThirdParty\XLua\Resources\tdr" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial" />
+     <None Include="Assets\ThirdParty\FishNet\package.json" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting" />
      <Folder Include="Assets\GuiProKit" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\Resources" />
@@ -657,6 +671,9 @@
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="FishNet.CodeAnalysis">
+     <HintPath>D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1033,20 +1050,11 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Addressables.Editor">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.AI.Navigation">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.AI.Navigation.Updater">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ResourceManager">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
@@ -1060,35 +1068,44 @@
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.AI.Navigation.Editor">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+     <Reference Include="UnityEditor.CacheServer">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEditor.CacheServer">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Addressables.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Updater">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ScriptableBuildPipeline.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
@@ -1098,6 +1115,26 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FishNet.Demos.csproj">
+      <Project>{2eb5f131-28a1-c8c6-f4b6-01ea05a35982}</Project>
+      <Name>FishNet.Demos</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Runtime.csproj">
+      <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
+      <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameKit.Dependencies.csproj">
+      <Project>{4008d8c4-397d-f4a9-aef8-9a354b4b1280}</Project>
+      <Name>GameKit.Dependencies</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameKit.Utilities.csproj">
+      <Project>{732f4856-9a25-7dd6-48b3-b31fff63949f}</Project>
+      <Name>GameKit.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Codegen.Cecil.csproj">
+      <Project>{d023cc50-d491-11b9-3548-9d188a722236}</Project>
+      <Name>FishNet.Codegen.Cecil</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

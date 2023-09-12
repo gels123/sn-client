@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Skywatch.AssetManagement.Pooling
+namespace AssetManager.Pooling
 {
     public interface IPool<in TPoolObjectType> where TPoolObjectType : IPoolObject
     {

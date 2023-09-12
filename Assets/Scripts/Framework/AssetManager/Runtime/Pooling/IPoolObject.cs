@@ -1,5 +1,5 @@
 ﻿
-namespace Skywatch.AssetManagement.Pooling
+namespace AssetManager.Pooling
 {
     public delegate void DelegateAwakeFromPool();
     public delegate void DelegateReturnToPool();

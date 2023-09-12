@@ -8,7 +8,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
 using Object = UnityEngine.Object;
 
-namespace Skywatch.AssetManagement
+namespace AssetManager
 {
     /// <summary>
     /// Handles all loading, unloading, instantiating, and destroying of AssetReferences and their associated Objects.
