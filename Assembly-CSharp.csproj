@@ -84,14 +84,12 @@
      <Compile Include="Assets\Scripts\Framework\Message\Message.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\DelegateBridge.cs" />
      <Compile Include="Assets\Scripts\Clock\Clock.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\ConversionException.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\MemoryLeakDetecter.cs" />
      <Compile Include="Assets\Scripts\Framework\UI\NoWrapText.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\WebCamTool.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ResManager.cs" />
      <Compile Include="Assets\Scripts\MainCam.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem7.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\IPool.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\TopToBottomDemoScript.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\Helper.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem2.cs" />
@@ -149,14 +147,11 @@
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\DelegateAction.cs" />
      <Compile Include="Assets\Scripts\Common\Json\XCModJSON.cs" />
      <Compile Include="Assets\Scripts\Common\Tools\RenderCameraTool.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\ExtensionMethods.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\12_ReImplementInLua\ReImplementInLua.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\Interface\IPv6SupportMidleware.cs" />
      <Compile Include="Assets\Scripts\Common\CustomDataStruct\BetterLinkedList.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\IPoolObject.cs" />
      <Compile Include="Assets\Scripts\TestXlua\TestXlua1.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\LoadAssetsByLabelOperation.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\ExampleGenConfig.cs" />
      <Compile Include="Assets\Scripts\Common\UIExtens\UIPointerDoubleClick.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\PageViewDemoScript.cs" />
@@ -172,7 +167,6 @@
      <Compile Include="Assets\ThirdParty\XLua\Src\Utils.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\GenericMethodExample.cs" />
      <Compile Include="Assets\Tests\TestLuban\TestText.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\AssetManager.cs" />
      <Compile Include="Assets\Scripts\Configs\LubanLib\SimpleJSON\SimpleJSON.cs" />
      <Compile Include="Assets\Scripts\Common\Http\HttpInfo.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod\Foo.cs" />
@@ -188,10 +182,8 @@
      <Compile Include="Assets\Scripts\Configs\LubanLib\ByteBuf.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\GenericDelegateBridge.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem8.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\PoolObject.cs" />
      <Compile Include="Assets\Scripts\CamLogic.cs" />
      <Compile Include="Assets\Scripts\Configs\Tables.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\MonoTracker.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\BottomToTopDemoScript.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest\MessageBox.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem6.cs" />
@@ -226,8 +218,6 @@
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem12.cs" />
      <Compile Include="Assets\Scripts\Common\Utility\BuildUtils.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\InternalGlobals.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\PoolBehaviour.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling\AssetReferencePool.cs" />
      <Compile Include="Assets\Scripts\fixtest.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\AddressableAssetsData\AssetGroupTemplates" />
@@ -250,7 +240,6 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\10_SignatureLoader\otherfiles" />
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Tests\TestLuban" />
-     <Folder Include="Assets\Scripts\Framework\AssetManager" />
      <Folder Include="Assets\Scripts\Common\Logger" />
      <Folder Include="Assets\AddressableAssetsData\AssetGroups\Schemas" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -365,13 +354,11 @@
      <Folder Include="Assets\ThirdParty\XLua\Resources" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Demo_UI" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\Loader" />
-     <Folder Include="Assets\Scripts\Framework\AssetManager\Runtime" />
      <Folder Include="Assets\ThirdParty\XLua\Tutorial\LoadLuaScript\ByString" />
      <None Include="Assets\ThirdParty\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
      <Folder Include="Assets\GuiProKit\Preview" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\09_GenericMethod" />
-     <Folder Include="Assets\Scripts\Framework\AssetManager\Runtime\Pooling" />
      <None Include="Assets\ThirdParty\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
      <Folder Include="Assets\AddressableAssetsData\AssetGroups" />
      <None Include="Assets\GuiProKit\ResourcesData\Shader &amp; Materials\MobileAdditive.shader" />
@@ -1122,6 +1109,10 @@
     <ProjectReference Include="FishNet.Runtime.csproj">
       <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
       <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AssetManagement.csproj">
+      <Project>{c7067e92-b925-04f9-7407-64dacb1c99db}</Project>
+      <Name>AssetManagement</Name>
     </ProjectReference>
     <ProjectReference Include="GameKit.Dependencies.csproj">
       <Project>{4008d8c4-397d-f4a9-aef8-9a354b4b1280}</Project>

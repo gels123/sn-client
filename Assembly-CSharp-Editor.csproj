@@ -51,7 +51,6 @@
      <Compile Include="Assets\Editor\LanguageTextMeshProCreate.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Generator.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\Hotfix.cs" />
-     <Compile Include="Assets\Scripts\Framework\AssetManager\Editor\Il2cppCustomFlag.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\13_BuildFromCLI\Editor\BuildFromCLI.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Src\Editor\TemplateRef.cs" />
@@ -69,7 +68,6 @@
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaClassWrapGCM.tpl.txt" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
-     <Folder Include="Assets\Scripts\Framework\AssetManager\Editor" />
      <Folder Include="Assets\ThirdParty\XLua\Src\Editor\Template" />
      <None Include="Assets\ThirdParty\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
      <Folder Include="Assets\Editor" />
@@ -821,6 +819,10 @@
     <ProjectReference Include="FishNet.Runtime.csproj">
       <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
       <Name>FishNet.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AssetManagement.csproj">
+      <Project>{c7067e92-b925-04f9-7407-64dacb1c99db}</Project>
+      <Name>AssetManagement</Name>
     </ProjectReference>
     <ProjectReference Include="GameKit.Dependencies.csproj">
       <Project>{4008d8c4-397d-f4a9-aef8-9a354b4b1280}</Project>

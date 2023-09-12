@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameKit.Utilities", "GameKi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameKit.Dependencies", "GameKit.Dependencies.csproj", "{4008d8c4-397d-f4a9-aef8-9a354b4b1280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetManagement", "AssetManagement.csproj", "{c7067e92-b925-04f9-7407-64dacb1c99db}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{892c8e25-5d3b-7b89-9e19-1a0ce3e44ad0}"
 EndProject
 Global
@@ -40,6 +42,8 @@ Global
 		{732f4856-9a25-7dd6-48b3-b31fff63949f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4008d8c4-397d-f4a9-aef8-9a354b4b1280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4008d8c4-397d-f4a9-aef8-9a354b4b1280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c7067e92-b925-04f9-7407-64dacb1c99db}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c7067e92-b925-04f9-7407-64dacb1c99db}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{892c8e25-5d3b-7b89-9e19-1a0ce3e44ad0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{892c8e25-5d3b-7b89-9e19-1a0ce3e44ad0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
