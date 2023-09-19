@@ -43,6 +43,7 @@
   <ItemGroup>
      <Folder Include="Assets\Plugins\Android" />
      <Folder Include="Assets\Plugins" />
+     <Folder Include="Assets\Plugins\arm64" />
      <Folder Include="Assets\Plugins\WSA\ARM64" />
      <Folder Include="Assets\Plugins\WSA\ARM" />
      <Folder Include="Assets\Plugins\Android\libs\x86" />
