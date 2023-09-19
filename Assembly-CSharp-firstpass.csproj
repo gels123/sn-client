@@ -45,26 +45,29 @@
      <Folder Include="Assets\Plugins" />
      <Folder Include="Assets\Plugins\arm64" />
      <Folder Include="Assets\Plugins\WSA\ARM64" />
+     <Folder Include="Assets\Plugins\xlua.bundle" />
      <Folder Include="Assets\Plugins\WSA\ARM" />
      <Folder Include="Assets\Plugins\Android\libs\x86" />
      <Folder Include="Assets\Plugins\WebGL" />
      <Folder Include="Assets\Plugins\Android\libs\arm64-v8a" />
      <Folder Include="Assets\Plugins\Android\libs\armeabi-v7a" />
      <Folder Include="Assets\Plugins\WSA" />
+     <Folder Include="Assets\Plugins\xlua.bundle\Contents\MacOS" />
      <Folder Include="Assets\Plugins\iOS" />
      <Folder Include="Assets\Plugins\x86" />
      <Folder Include="Assets\Plugins\Android\libs" />
      <Folder Include="Assets\Plugins\WSA\x64" />
      <Folder Include="Assets\Plugins\x86_64" />
      <Folder Include="Assets\Plugins\WSA\x86" />
+     <Folder Include="Assets\Plugins\xlua.bundle\Contents" />
      <Reference Include="UnityEngine">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
