@@ -335,6 +335,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="FishNet.CodeAnalysis">
+     <HintPath>D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -346,9 +349,6 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="FishNet.CodeAnalysis">
-     <HintPath>D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -764,14 +764,14 @@
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.CacheServer">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
@@ -816,13 +816,13 @@
       <Project>{2eb5f131-28a1-c8c6-f4b6-01ea05a35982}</Project>
       <Name>FishNet.Demos</Name>
     </ProjectReference>
-    <ProjectReference Include="FishNet.Runtime.csproj">
-      <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
-      <Name>FishNet.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="AssetManagement.csproj">
       <Project>{c7067e92-b925-04f9-7407-64dacb1c99db}</Project>
       <Name>AssetManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Runtime.csproj">
+      <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
+      <Name>FishNet.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="GameKit.Dependencies.csproj">
       <Project>{4008d8c4-397d-f4a9-aef8-9a354b4b1280}</Project>

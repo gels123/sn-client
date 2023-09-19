@@ -82,6 +82,12 @@ public class TestAddressable1 : MonoBehaviour
                     }
                 };
             });
+            // 写法2
+            btn3.onClick.AddListener(() =>
+            {
+                StartCoroutine(Btn3Click()); //普通函数调用可迭代函数, 需开启协程
+            });
+            // 写法1
             btn3.onClick.AddListener((() =>
             {
                 // var ok = AssetManager.LoadAssetAsync(aRef, out AsyncOperationHandle<AudioClip> handle);
@@ -102,15 +108,15 @@ public class TestAddressable1 : MonoBehaviour
                     };
                 }
 
-                var handle3 = AssetManager.LoadAssetsByLabelAsync("default");
-                handle3.Completed += (h =>
-                {
-                    if (h.Status == AsyncOperationStatus.Succeeded)
-                    {
-                        var list = h.Result;
-                        var num = list.Count;
-                    }
-                });
+                // var handle3 = AssetManager.LoadAssetsByLabelAsync("default");
+                // handle3.Completed += (h =>
+                // {
+                //     if (h.Status == AsyncOperationStatus.Succeeded)
+                //     {
+                //         var list = h.Result;
+                //         var num = list.Count;
+                //     }
+                // });
                 
                 // if (AssetManager.InstantiateAsync(reference, Vector3.zero, Quaternion.identity, null, out AsyncOperationHandle<ParticleSystem> handle))
                 // {
@@ -133,5 +139,25 @@ public class TestAddressable1 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    IEnumerator Btn3Click()
+    {
+        var key = "Assets/AssetsPackage/Audio/btn_click.wav";
+        var ok = AssetManager.LoadAssetAsync(key, out AsyncOperationHandle<AudioClip> handle);
+        if (ok)
+        {
+            AudioSource au = gameObject.GetComponent<AudioSource>();
+            au.PlayOneShot(handle.Result);
+        }
+        else
+        {
+            // 写法2
+            yield return handle;
+            AudioSource au = gameObject.GetComponent<AudioSource>();
+            au.PlayOneShot(handle.Result);
+            AssetManager.Unload(key);
+        }
+        yield break;
     }
 }

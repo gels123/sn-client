@@ -76,8 +76,8 @@
      <Compile Include="Assets\ThirdParty\FishNet\Demos\SceneManager\Additive Scenes\Scripts\ServerScenePrewarmer.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\HashGrid\Scripts\MoveRandomly.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\CustomSyncType\Component State Sync\ComponentStateSync.cs" />
-     <Compile Include="Assets\ThirdParty\FishNet\Demos\HashGrid\Scripts\GridSpawner.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\ColliderRollback\Scripts\Player\PlayerMotor.cs" />
+     <Compile Include="Assets\ThirdParty\FishNet\Demos\HashGrid\Scripts\GridSpawner.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\SceneManager (Old Examples)\Scripts\SceneLoaderExample.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\Network LOD\Scripts\NetworkLodTester.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Demos\SceneManager (Old Examples)\Scripts\SceneUnloaderExample.cs" />
@@ -407,6 +407,9 @@
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="FishNet.CodeAnalysis">
+     <HintPath>D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -418,9 +421,6 @@
      </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\work\sn-client\Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-     </Reference>
-     <Reference Include="FishNet.CodeAnalysis">
-     <HintPath>D:\work\sn-client\Assets\ThirdParty\FishNet\Plugins\CodeAnalysis\FishNet.CodeAnalysis.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.4f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

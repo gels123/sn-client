@@ -132,6 +132,7 @@
      <Compile Include="Assets\Scripts\Graph\GraphCtrl.cs" />
      <Compile Include="Assets\ThirdParty\FishNet\Upgrading\MirrorUpgrade.cs" />
      <Compile Include="Assets\Scripts\Framework\UI\LanguageTextMeshPro.cs" />
+     <Compile Include="Assets\Tests\TestAsync\TestAsync.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ListItem1.cs" />
      <Compile Include="Assets\Scripts\Framework\Socket\HjNetwork\HjSemaphore.cs" />
      <Compile Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\CoroutineTest.cs" />
@@ -304,6 +305,7 @@
      <Folder Include="Assets\Scripts\Configs\LubanLib" />
      <Folder Include="Assets\ThirdParty\XLua\Doc" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Icon_PictoIcons(x2)" />
+     <Folder Include="Assets\XLua" />
      <Folder Include="Assets\GuiProKit\Prefabs\Prefabs_Component_Slider" />
      <Folder Include="Assets\AddressableAssetsData\Android" />
      <Folder Include="Assets\ThirdParty\FishNet\Plugins\GameKit" />
@@ -349,6 +351,7 @@
      <Folder Include="Assets\ThirdParty\TextMesh Pro\Fonts" />
      <None Include="Assets\ThirdParty\XLua\Resources\perf\memory.lua.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Examples\06_Coroutine" />
+     <Folder Include="Assets\Tests\TestAsync" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Demo\Demo_Icon" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\ThirdParty\XLua\Resources" />
@@ -368,6 +371,7 @@
      <Folder Include="Assets\ThirdParty\XLua\Examples\07_AsyncTest" />
      <Folder Include="Assets\AddressableAssetsData\DataBuilders" />
      <Folder Include="Assets\ThirdParty\XLua\Src" />
+     <Folder Include="Assets\XLua\Gen" />
      <None Include="Assets\ThirdParty\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Scripts\TestXlua\TestXlua2.lua.txt" />
      <Folder Include="Assets\StreamingAssets" />
@@ -1058,14 +1062,14 @@
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.CacheServer">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\work\sn-client\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
      <HintPath>D:\work\sn-client\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
@@ -1106,13 +1110,13 @@
       <Project>{2eb5f131-28a1-c8c6-f4b6-01ea05a35982}</Project>
       <Name>FishNet.Demos</Name>
     </ProjectReference>
-    <ProjectReference Include="FishNet.Runtime.csproj">
-      <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
-      <Name>FishNet.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="AssetManagement.csproj">
       <Project>{c7067e92-b925-04f9-7407-64dacb1c99db}</Project>
       <Name>AssetManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="FishNet.Runtime.csproj">
+      <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
+      <Name>FishNet.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="GameKit.Dependencies.csproj">
       <Project>{4008d8c4-397d-f4a9-aef8-9a354b4b1280}</Project>
