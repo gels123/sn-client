@@ -115,8 +115,8 @@ public class Logger
                 m_isInit = true;
             }
             // 上报钉钉
-            var msg2 = string.Format("{{\"msgtype\": \"text\",\"text\": {{\"content\":\"{0}\"}}}}", msg);
-            m_webClient.UploadStringAsync(new Uri(URLSetting.REPORT_ERROR_URL), msg2);
+            msg = string.Format("{{\"msgtype\": \"text\",\"text\": {{\"content\":\"{0}\"}}}}", msg);
+            m_webClient.UploadStringAsync(new Uri(URLSetting.REPORT_ERROR_URL), msg);
         }
     }
 
