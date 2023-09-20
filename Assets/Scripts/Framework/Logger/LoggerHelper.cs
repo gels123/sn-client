@@ -12,30 +12,27 @@ public class LoggerHelper : MonoSingleton<LoggerHelper>
         LOG_ERR,
     }
 
-    struct log_info
+    struct LogInfo
     {
         public LOG_TYPE type;
         public string msg;
-
-        public log_info(LOG_TYPE type, string msg)
+        public LogInfo(LOG_TYPE type, string msg)
         {
             this.type = type;
             this.msg = msg;
         }
     }
-
-    private static LoggerHelper _instance = null;
-    private List<log_info> backList = new List<log_info>(100);
-    private List<log_info> frontList = new List<log_info>(100);
+    
+    private List<LogInfo> backList = new List<LogInfo>(100);
+    private List<LogInfo> frontList = new List<LogInfo>(100);
 
     protected override void Init()
     {
         if (!Application.isEditor)
         {
             Application.logMessageReceived += (LogHandler);
-
-            //关闭error上报定时器
-            //InvokeRepeating("CheckReport", 1f, 1f);
+            // 每5秒上报error
+            InvokeRepeating("CheckReport", 5.0f, 5.0f);
         }
     }
 
@@ -45,7 +42,6 @@ public class LoggerHelper : MonoSingleton<LoggerHelper>
         {
             return;
         }
-
         if (type == LogType.Error || type == LogType.Exception || type == LogType.Assert)
         {
             Logger.LogError(condition + " \n" + stackTrace);
@@ -54,21 +50,21 @@ public class LoggerHelper : MonoSingleton<LoggerHelper>
 
     private void CheckReport()
     {
+        Update_(); // 无需每帧更新
         Logger.CheckReportError();
     }
     
-    private void Update()
+    private void Update_()
     {
         lock (backList)
         {
             if (backList.Count > 0)
             {
-                List<log_info> tmp = frontList;
+                List<LogInfo> tmp = frontList;
                 frontList = backList;
                 backList = tmp;
             }
         }
-
         if (frontList.Count > 0)
         {
             for (int i = 0; i < frontList.Count; i++)
@@ -106,7 +102,7 @@ public class LoggerHelper : MonoSingleton<LoggerHelper>
     {
         lock (backList)
         {
-            backList.Add(new log_info(type, msg));
+            backList.Add(new LogInfo(type, msg));
         }
     }
 }
@@ -116,8 +112,8 @@ public static class LoggerHelperExporter
 {
     [LuaCallCSharp]
     public static List<Type> LuaCallCSharp = new List<Type>()
-        {
-            typeof(LoggerHelper),
-        };
+    {
+        typeof(LoggerHelper),
+    };
 }
 #endif

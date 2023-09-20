@@ -195,6 +195,7 @@
      <Compile Include="Assets\Scripts\Framework\Singleton\MonoSingleton.cs" />
      <Compile Include="Assets\ThirdParty\SuperScrollView\Demo\Scripts\ChatMsgListViewDemoScript.cs" />
      <Compile Include="Assets\Tests\TestA\CarLogic.cs" />
+     <Compile Include="Assets\Scripts\GameLaunch\test1.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\AddressableAssetsData\AssetGroupTemplates" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Sprite\Component\Label" />
@@ -227,6 +228,7 @@
      <Folder Include="Assets\StreamingAssets\Json" />
      <Folder Include="Assets\Scripts\Framework\CustomDataStruct" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Animatons" />
+     <Folder Include="Assets\Scripts\GameLaunch" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Particle\Texture" />
      <Folder Include="Assets\GuiProKit\ResourcesData\Particle" />
      <None Include="Assets\ThirdParty\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />

@@ -13,7 +13,6 @@ public class Logger
     private static List<string> m_errorList = new List<string>();
     private static bool m_canTakeError = true;
     private static bool m_isInit = false;
-    private static int counter = 0;
     private static StringBuilder sb = new StringBuilder();
     public static string appVersion = string.Empty;
     public static string resVersion = string.Empty;
@@ -23,14 +22,17 @@ public class Logger
     public static string sceneName = "Launch";
     public static string DEBUG_BUILD_VER = "HOG_ALPHA_1";
     public static string platChannel = "outnet";
-
+    private static LoggerHelper m_helper = LoggerHelper.Instance;
+    
+    // 打日志
     [Conditional("UNITY_EDITOR")]
     [Conditional("LOGGER_ON")]
     static public void Log(string s, params object[] p)
     {
         Debug.Log(DateTime.Now + " -- " + (p != null && p.Length > 0 ? string.Format(s, p) : s));
     }
-
+    
+    // 打日志
     [Conditional("UNITY_EDITOR")]
     [Conditional("LOGGER_ON")]
     static public void Log(object o)
@@ -38,12 +40,13 @@ public class Logger
         Debug.Log(o);
     }
 
+    // 非主线程打日志
     [Conditional("UNITY_EDITOR")]
     [Conditional("LOGGER_ON")]
     public static void LogToMainThread(string s, params object[] p)
     {
         string msg = (p != null && p.Length > 0 ? string.Format(s, p) : s);
-        LoggerHelper.Instance.LogToMainThread(LoggerHelper.LOG_TYPE.LOG, msg);
+        m_helper.LogToMainThread(LoggerHelper.LOG_TYPE.LOG, msg);
     }
 
     [Conditional("UNITY_EDITOR")]
@@ -56,22 +59,24 @@ public class Logger
         }
         LogError("Assert failed! Message:\n" + s, p);
     }
-
+    
+    // 打错误日志
     static public void LogError(string s, params object[] p)
     {
-#if UNITY_EDITOR || LOGGER_ON
+#if UNITY_EDITOR
         Debug.LogError((p != null && p.Length > 0 ? string.Format(s, p) : s));
-#else
-        AddError(string.Format("clientversion:{0} uid: {1} device:{2} ip:{3} platname:{4} platChannel:{5} scenename:{6} debug_build_ver:{7} \n {8} ",
+#elif LOGGER_ON
+        AddError(string.Format("clientversion:{0} uid: {1} device:{2} ip:{3} platname:{4} platChannel:{5} scenename:{6} debug_build_ver:{7} msg: {8} ",
         appVersion, loginUid, (SystemInfo.deviceModel + "/" + SystemInfo.deviceUniqueIdentifier), localIP, platName, platChannel, sceneName, DEBUG_BUILD_VER,
         (p != null && p.Length > 0 ? string.Format(s, p) : s)));
 #endif
     }
-
+    
+    // 非主线程打错误日志
     public static void LogErrorToMainThread(string s, params object[] p)
     {
         string msg = (p != null && p.Length > 0 ? string.Format(s, p) : s);
-        LoggerHelper.Instance.LogToMainThread(LoggerHelper.LOG_TYPE.LOG_ERR, msg);
+        m_helper.LogToMainThread(LoggerHelper.LOG_TYPE.LOG_ERR, msg);
     }
     
     static public void LogStackTrace(string str)
@@ -82,64 +87,58 @@ public class Logger
         {
             for (int i = 0; i < stacks.Length; i++)
             {
-                //result += stacks[i].ToString() + "\r\n";
                 result += string.Format("{0} {1}\r\n", stacks[i].GetFileName(), stacks[i].GetMethod().ToString());
             }
         }
         LogError(result);
     }
 
-    private static void AddError(string errorStr)
+    private static void AddError(string msg)
     {
-        if (!string.IsNullOrEmpty(errorStr))
+        if (!string.IsNullOrEmpty(msg))
         {
-            m_errorList.Add(errorStr);
+            m_errorList.Add(msg);
         }
     }
 
-    private static void SendToHttpSvr(string postData)
+    private static void SendToHttpSvr(string msg)
     {
-        if (!string.IsNullOrEmpty(postData))
+        if (!string.IsNullOrEmpty(msg))
         {
-            //Logger.Log("error:" + postData);
             if (!m_isInit)
             {
+                // curl:setopt(luacurl.OPT_HTTPHEADER,"Content-Type:application/json;charset=UTF-8")
+                m_webClient.Encoding = Encoding.UTF8;
+                m_webClient.Headers.Add("Content-Type", "application/json");
+                m_webClient.Headers.Add("charset", "UTF-8");
                 m_webClient.UploadStringCompleted += new UploadStringCompletedEventHandler(OnUploadStringCompleted);
                 m_isInit = true;
             }
-
-            m_webClient.UploadStringAsync(new Uri(URLSetting.REPORT_ERROR_URL), "POST", postData);
+            // 上报钉钉
+            var msg2 = string.Format("{{\"msgtype\": \"text\",\"text\": {{\"content\":\"{0}\"}}}}", msg);
+            m_webClient.UploadStringAsync(new Uri(URLSetting.REPORT_ERROR_URL), msg2);
         }
     }
 
     public static void CheckReportError()
     {
-        counter++;
-
-        if (counter % 5 == 0 && m_canTakeError)
+        if (m_canTakeError)
         {
-            DealWithReportError();
-            counter = (counter > 1000) ? 0 : counter;
-        }
-    }
-
-    private static void DealWithReportError()
-    {
-        int errorCount = m_errorList.Count;
-        if (errorCount > 0)
-        {
-            m_canTakeError = false;
-            counter = 0;
-            sb.Length = 0;
-            for (int i = 0; i < errorCount; i++)
+            int count = m_errorList.Count;
+            if (count > 0)
             {
-                sb.Append(m_errorList[i] + " | \n");
+                m_canTakeError = false;
+                sb.Length = 0;
+                for (int i = 0; i < count; i++)
+                {
+                    sb.Append(m_errorList[i] + " | ");
+                }
+                m_errorList.Clear();
+                SendToHttpSvr(sb.ToString());
             }
-
-            m_errorList.Clear();
-            SendToHttpSvr(sb.ToString());
         }
     }
+
     static void OnUploadStringCompleted(object sender, UploadStringCompletedEventArgs e)
     {
         m_canTakeError = true;
@@ -179,5 +178,4 @@ public class Logger
 #endif
         }
     }
-
 }

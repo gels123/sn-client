@@ -31,10 +31,13 @@ public class URLSetting
         set;
     }
 
+    // 错误日志上报URL
     public static string REPORT_ERROR_URL
     {
-        get;
-        set;
+        get
+        {
+            return "https://oapi.dingtalk.com/robot/send?access_token=9848749207a29936a54e559b77be02c9293f5c04e90c6601776fc87b6bd39663";
+        }
     }
 
     public static string SERVER_LIST_URL

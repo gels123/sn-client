@@ -20,10 +20,10 @@
  * 
  */
  
-//#define LOG_ALL_MESSAGES
-//#define LOG_ADD_LISTENER
-//#define LOG_BROADCAST_MESSAGE
-//#define REQUIRE_LISTENER 是否必须添加接收监听
+//#define LOG_ALL_MESSAGES  //是否打印日志
+//#define LOG_ADD_LISTENER  //是否打印日志
+//#define LOG_BROADCAST_MESSAGE  //是否打印日志
+//#define REQUIRE_LISTENER  //是否必须添加接收监听
  
 using System;
 using System.Collections.Generic;
