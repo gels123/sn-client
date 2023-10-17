@@ -811,6 +811,10 @@
       <Project>{ae8ddd28-64aa-10e3-5bb9-4d05e086401d}</Project>
       <Name>FishNet.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Xlua.Core.csproj">
+      <Project>{a0a913b5-9c1e-7aae-936e-1cdd64b78981}</Project>
+      <Name>Xlua.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="GameKit.Utilities.csproj">
       <Project>{732f4856-9a25-7dd6-48b3-b31fff63949f}</Project>
       <Name>GameKit.Utilities</Name>
@@ -818,10 +822,6 @@
     <ProjectReference Include="Xlua.Core.Editor.csproj">
       <Project>{9a2f71d6-c846-6911-ee21-38587ec01233}</Project>
       <Name>Xlua.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Xlua.Core.csproj">
-      <Project>{a0a913b5-9c1e-7aae-936e-1cdd64b78981}</Project>
-      <Name>Xlua.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
